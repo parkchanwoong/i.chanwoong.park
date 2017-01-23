@@ -48,16 +48,16 @@ int main(int argc, const char * argv[]) {
     
     strong.health = 100;
     strong.mana = 50;
-    strong.physicalPower = 7;
-    strong.magicalPower = 3;
+    strong.physicalAttack = 7;
+    strong.magicalAttack = 3;
     
  
     Wizard *wizard = [[Wizard alloc] init];
     
     wizard.health = 70;
     wizard.mana = 120;
-    wizard.physicalPower = 2;
-    wizard.magicalPower = 9;
+    wizard.physicalAttack = 2;
+    wizard.magicalAttack = 9;
     
     
     

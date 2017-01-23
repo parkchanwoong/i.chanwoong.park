@@ -14,13 +14,13 @@
 
 - (id)attack:(Plants*)defense{
     
-    NSUInteger damage = self.boneAttack - defense.leafDefense;
-    
-    NSUInteger pResultHp = defense.pHealth - damage;
-    
-    defense.pHealth = pResultHp;
-
-    NSLog(@"plant의 체력 : %lu",(unsigned long)defense.pHealth);
+//    NSUInteger damage = self.boneAttack - defense.leafDefense;
+//    
+//    NSUInteger pResultHp = defense.pHealth - damage;
+//    
+//    defense.pHealth = pResultHp;
+//
+//    NSLog(@"plant의 체력 : %lu",(unsigned long)defense.pHealth);
 
     
     

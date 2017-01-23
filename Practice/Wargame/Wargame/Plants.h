@@ -7,14 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "GameCharacter.h"
+
 @class Zombie;
 
-@interface Plants : NSObject
+@interface Plants : GameCharacter
 
-
-@property NSUInteger leafAttack; //식물의 공격력
-@property NSUInteger leafDefense; //식물의 방어력
-@property NSUInteger pHealth; //식물의 체력
 
 - (id)leafAttack:(Zombie*)boneDefense;
 

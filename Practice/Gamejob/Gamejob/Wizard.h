@@ -13,8 +13,8 @@
 
 @property NSUInteger health;
 @property NSUInteger mana;
-@property NSUInteger physicalPower;
-@property NSUInteger magicalPower;
+@property NSUInteger physicalAttack;
+@property NSUInteger magicalAttack;
 @property NSString* weapon;
 
 - (id)physicalPower:(Warrior *)to;

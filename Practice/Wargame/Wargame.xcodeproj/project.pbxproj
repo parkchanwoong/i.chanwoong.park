@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E179F651E3059450079B8E3 /* GameCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E179F641E3059450079B8E3 /* GameCharacter.m */; };
+		2E179F681E3060010079B8E3 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E179F671E3060010079B8E3 /* Person.m */; };
+		2E179F6B1E30600D0079B8E3 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E179F6A1E30600D0079B8E3 /* Student.m */; };
+		2E179F6E1E3060210079B8E3 /* UniversityStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E179F6D1E3060210079B8E3 /* UniversityStudent.m */; };
 		2E5D4DC51E2F4D9D00E44D74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D4DC41E2F4D9D00E44D74 /* main.m */; };
 		2E5D4DCD1E2F4DB900E44D74 /* Zombie.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D4DCC1E2F4DB900E44D74 /* Zombie.m */; };
 		2E5D4DD01E2F4DCA00E44D74 /* Plants.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5D4DCF1E2F4DCA00E44D74 /* Plants.m */; };
@@ -25,6 +29,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2E179F631E3059450079B8E3 /* GameCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCharacter.h; sourceTree = "<group>"; };
+		2E179F641E3059450079B8E3 /* GameCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCharacter.m; sourceTree = "<group>"; };
+		2E179F661E3060010079B8E3 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2E179F671E3060010079B8E3 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2E179F691E30600D0079B8E3 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		2E179F6A1E30600D0079B8E3 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		2E179F6C1E3060210079B8E3 /* UniversityStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UniversityStudent.h; sourceTree = "<group>"; };
+		2E179F6D1E3060210079B8E3 /* UniversityStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UniversityStudent.m; sourceTree = "<group>"; };
 		2E5D4DC11E2F4D9D00E44D74 /* Wargame */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Wargame; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E5D4DC41E2F4D9D00E44D74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E5D4DCB1E2F4DB900E44D74 /* Zombie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zombie.h; sourceTree = "<group>"; };
@@ -68,6 +80,14 @@
 				2E5D4DCC1E2F4DB900E44D74 /* Zombie.m */,
 				2E5D4DCE1E2F4DCA00E44D74 /* Plants.h */,
 				2E5D4DCF1E2F4DCA00E44D74 /* Plants.m */,
+				2E179F631E3059450079B8E3 /* GameCharacter.h */,
+				2E179F641E3059450079B8E3 /* GameCharacter.m */,
+				2E179F661E3060010079B8E3 /* Person.h */,
+				2E179F671E3060010079B8E3 /* Person.m */,
+				2E179F691E30600D0079B8E3 /* Student.h */,
+				2E179F6A1E30600D0079B8E3 /* Student.m */,
+				2E179F6C1E3060210079B8E3 /* UniversityStudent.h */,
+				2E179F6D1E3060210079B8E3 /* UniversityStudent.m */,
 			);
 			path = Wargame;
 			sourceTree = "<group>";
@@ -130,8 +150,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E5D4DD01E2F4DCA00E44D74 /* Plants.m in Sources */,
+				2E179F6E1E3060210079B8E3 /* UniversityStudent.m in Sources */,
+				2E179F651E3059450079B8E3 /* GameCharacter.m in Sources */,
+				2E179F681E3060010079B8E3 /* Person.m in Sources */,
 				2E5D4DC51E2F4D9D00E44D74 /* main.m in Sources */,
 				2E5D4DCD1E2F4DB900E44D74 /* Zombie.m in Sources */,
+				2E179F6B1E30600D0079B8E3 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +282,7 @@
 				2E5D4DCA1E2F4D9D00E44D74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
