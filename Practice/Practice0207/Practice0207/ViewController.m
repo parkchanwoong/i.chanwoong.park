@@ -40,8 +40,13 @@
     newView3.backgroundColor = [UIColor redColor];
     [scrollView addSubview:newView3];
     
+    //NSMutableArray
+    
+   
     
 }
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

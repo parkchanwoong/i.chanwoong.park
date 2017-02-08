@@ -79,9 +79,10 @@
     UIButton *btn1 = [[UIButton alloc] initWithFrame:CGRectMake(loginId.frame.origin.x, loginPassword.frame.origin.y+40, 100, 50)];
     [btn1 setTitle:@"로그인" forState:UIControlStateNormal];
     [btn1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [btn1 setTitleColor:[UIColor purpleColor] forState:UIControlStateSelected];
+    [btn1 setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
     btn1.layer.borderWidth = 2;
     btn1.layer.borderColor = [UIColor blackColor].CGColor;
+    [btn1 addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchDown];
     [self.scrollView addSubview:btn1];
     
     UIButton *btn2 = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2+20, btn1.frame.origin.y, 100, 50)];
@@ -93,6 +94,22 @@
     [self.scrollView addSubview:btn2];
     
   
+}
+
+- (void)click:(UITextField *)sender
+
+{
+    if ([self.tfId  isEqual:@"aaa"])
+    {
+        NSLog(@"로그인 성공");
+    }
+         else
+         {
+             NSLog(@"로그인 실패");
+         }
+    
+    
+    
 }
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField
@@ -111,19 +128,14 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)text
 {
-    if(self.tfId == text)
-    {
-    [self.tfPw becomeFirstResponder];
-        
-     }
-    else
-        [self.tfPw resignFirstResponder];
+    if(self.tfId == text) [self.tfPw becomeFirstResponder];
+                    else  [self.tfPw resignFirstResponder];
     //[self.tfPw resignFirstResponder];
     return YES;
     
 }
 
-
+//NSMutableArray
 
 
 
