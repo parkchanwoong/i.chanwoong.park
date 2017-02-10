@@ -35,9 +35,7 @@
 //    {
 //        NSLog(@"%@,%@",array[array.count/2-1],array[array.count/2]);
 //    }
-    
-    
-}
+   }
 
 - (void)center:(NSArray *)array
 {
