@@ -128,6 +128,7 @@
 				TargetAttributes = {
 					2EF703951E477A4C006FDC01 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5K3J6VS4VX;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -294,7 +295,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5K3J6VS4VX;
 				INFOPLIST_FILE = Kakao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chanwoong.Kakao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -305,7 +308,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5K3J6VS4VX;
 				INFOPLIST_FILE = Kakao/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chanwoong.Kakao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -331,6 +336,7 @@
 				2EF703AF1E477A4C006FDC01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

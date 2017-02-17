@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		509D8B8B1E559186005A4991 /* bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B6C1E559186005A4991 /* bear.jpg */; };
+		509D8B8C1E559186005A4991 /* black_swan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B6D1E559186005A4991 /* black_swan.jpg */; };
+		509D8B8D1E559186005A4991 /* buffalo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B6E1E559186005A4991 /* buffalo.jpg */; };
+		509D8B8E1E559186005A4991 /* camel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B6F1E559186005A4991 /* camel.jpg */; };
+		509D8B8F1E559186005A4991 /* cockatoo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B701E559186005A4991 /* cockatoo.jpg */; };
+		509D8B901E559186005A4991 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B711E559186005A4991 /* dog.jpg */; };
+		509D8B911E559186005A4991 /* donkey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B721E559186005A4991 /* donkey.jpg */; };
+		509D8B921E559186005A4991 /* duck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B731E559186005A4991 /* duck.jpg */; };
+		509D8B931E559186005A4991 /* elephant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B741E559186005A4991 /* elephant.jpg */; };
+		509D8B941E559186005A4991 /* emu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B751E559186005A4991 /* emu.jpg */; };
+		509D8B951E559186005A4991 /* giraffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B761E559186005A4991 /* giraffe.jpg */; };
+		509D8B961E559186005A4991 /* greater_rhea.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B771E559186005A4991 /* greater_rhea.jpg */; };
+		509D8B971E559186005A4991 /* guinea_pig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B781E559186005A4991 /* guinea_pig.jpg */; };
+		509D8B981E559186005A4991 /* hippopotamus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B791E559186005A4991 /* hippopotamus.jpg */; };
+		509D8B991E559186005A4991 /* horse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B7A1E559186005A4991 /* horse.jpg */; };
+		509D8B9A1E559186005A4991 /* koala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B7B1E559186005A4991 /* koala.jpg */; };
+		509D8B9B1E559186005A4991 /* lion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B7C1E559186005A4991 /* lion.jpg */; };
+		509D8B9C1E559186005A4991 /* llama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B7D1E559186005A4991 /* llama.jpg */; };
+		509D8B9D1E559186005A4991 /* manatus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B7E1E559186005A4991 /* manatus.jpg */; };
+		509D8B9E1E559186005A4991 /* meerkat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B7F1E559186005A4991 /* meerkat.jpg */; };
+		509D8B9F1E559186005A4991 /* panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B801E559186005A4991 /* panda.jpg */; };
+		509D8BA01E559186005A4991 /* peacock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B811E559186005A4991 /* peacock.jpg */; };
+		509D8BA11E559186005A4991 /* pig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B821E559186005A4991 /* pig.jpg */; };
+		509D8BA21E559186005A4991 /* platypus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B831E559186005A4991 /* platypus.jpg */; };
+		509D8BA31E559186005A4991 /* polar_bear.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B841E559186005A4991 /* polar_bear.jpg */; };
+		509D8BA41E559186005A4991 /* rhinoceros.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B851E559186005A4991 /* rhinoceros.jpg */; };
+		509D8BA51E559186005A4991 /* seagull.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B861E559186005A4991 /* seagull.jpg */; };
+		509D8BA61E559186005A4991 /* tasmania_devil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B871E559186005A4991 /* tasmania_devil.jpg */; };
+		509D8BA71E559186005A4991 /* whale_shark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B881E559186005A4991 /* whale_shark.jpg */; };
+		509D8BA81E559186005A4991 /* whale.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B891E559186005A4991 /* whale.jpg */; };
+		509D8BA91E559186005A4991 /* wombat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 509D8B8A1E559186005A4991 /* wombat.jpg */; };
+		50CE043D1E54819B00A4AB03 /* titleView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 50CE043C1E54819B00A4AB03 /* titleView.jpg */; };
+		50E480AC1D0549F7008870C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E480AB1D0549F7008870C5 /* main.m */; };
+		50E480AF1D0549F7008870C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E480AE1D0549F7008870C5 /* AppDelegate.m */; };
+		50E480B21D0549F7008870C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E480B11D0549F7008870C5 /* ViewController.m */; };
+		50E480B51D0549F7008870C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E480B31D0549F7008870C5 /* Main.storyboard */; };
+		50E480B71D0549F7008870C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E480B61D0549F7008870C5 /* Assets.xcassets */; };
+		50E480BA1D0549F7008870C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E480B81D0549F7008870C5 /* LaunchScreen.storyboard */; };
+		50E480C31D054A05008870C5 /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E480C21D054A05008870C5 /* DataCenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		509D8B6C1E559186005A4991 /* bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bear.jpg; path = animals/bear.jpg; sourceTree = "<group>"; };
+		509D8B6D1E559186005A4991 /* black_swan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = black_swan.jpg; path = animals/black_swan.jpg; sourceTree = "<group>"; };
+		509D8B6E1E559186005A4991 /* buffalo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = buffalo.jpg; path = animals/buffalo.jpg; sourceTree = "<group>"; };
+		509D8B6F1E559186005A4991 /* camel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = camel.jpg; path = animals/camel.jpg; sourceTree = "<group>"; };
+		509D8B701E559186005A4991 /* cockatoo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cockatoo.jpg; path = animals/cockatoo.jpg; sourceTree = "<group>"; };
+		509D8B711E559186005A4991 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dog.jpg; path = animals/dog.jpg; sourceTree = "<group>"; };
+		509D8B721E559186005A4991 /* donkey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = donkey.jpg; path = animals/donkey.jpg; sourceTree = "<group>"; };
+		509D8B731E559186005A4991 /* duck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = duck.jpg; path = animals/duck.jpg; sourceTree = "<group>"; };
+		509D8B741E559186005A4991 /* elephant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = elephant.jpg; path = animals/elephant.jpg; sourceTree = "<group>"; };
+		509D8B751E559186005A4991 /* emu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = emu.jpg; path = animals/emu.jpg; sourceTree = "<group>"; };
+		509D8B761E559186005A4991 /* giraffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = giraffe.jpg; path = animals/giraffe.jpg; sourceTree = "<group>"; };
+		509D8B771E559186005A4991 /* greater_rhea.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = greater_rhea.jpg; path = animals/greater_rhea.jpg; sourceTree = "<group>"; };
+		509D8B781E559186005A4991 /* guinea_pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = guinea_pig.jpg; path = animals/guinea_pig.jpg; sourceTree = "<group>"; };
+		509D8B791E559186005A4991 /* hippopotamus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hippopotamus.jpg; path = animals/hippopotamus.jpg; sourceTree = "<group>"; };
+		509D8B7A1E559186005A4991 /* horse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = horse.jpg; path = animals/horse.jpg; sourceTree = "<group>"; };
+		509D8B7B1E559186005A4991 /* koala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = koala.jpg; path = animals/koala.jpg; sourceTree = "<group>"; };
+		509D8B7C1E559186005A4991 /* lion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lion.jpg; path = animals/lion.jpg; sourceTree = "<group>"; };
+		509D8B7D1E559186005A4991 /* llama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = llama.jpg; path = animals/llama.jpg; sourceTree = "<group>"; };
+		509D8B7E1E559186005A4991 /* manatus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = manatus.jpg; path = animals/manatus.jpg; sourceTree = "<group>"; };
+		509D8B7F1E559186005A4991 /* meerkat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = meerkat.jpg; path = animals/meerkat.jpg; sourceTree = "<group>"; };
+		509D8B801E559186005A4991 /* panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = panda.jpg; path = animals/panda.jpg; sourceTree = "<group>"; };
+		509D8B811E559186005A4991 /* peacock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = peacock.jpg; path = animals/peacock.jpg; sourceTree = "<group>"; };
+		509D8B821E559186005A4991 /* pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = pig.jpg; path = animals/pig.jpg; sourceTree = "<group>"; };
+		509D8B831E559186005A4991 /* platypus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = platypus.jpg; path = animals/platypus.jpg; sourceTree = "<group>"; };
+		509D8B841E559186005A4991 /* polar_bear.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = polar_bear.jpg; path = animals/polar_bear.jpg; sourceTree = "<group>"; };
+		509D8B851E559186005A4991 /* rhinoceros.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rhinoceros.jpg; path = animals/rhinoceros.jpg; sourceTree = "<group>"; };
+		509D8B861E559186005A4991 /* seagull.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = seagull.jpg; path = animals/seagull.jpg; sourceTree = "<group>"; };
+		509D8B871E559186005A4991 /* tasmania_devil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = tasmania_devil.jpg; path = animals/tasmania_devil.jpg; sourceTree = "<group>"; };
+		509D8B881E559186005A4991 /* whale_shark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = whale_shark.jpg; path = animals/whale_shark.jpg; sourceTree = "<group>"; };
+		509D8B891E559186005A4991 /* whale.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = whale.jpg; path = animals/whale.jpg; sourceTree = "<group>"; };
+		509D8B8A1E559186005A4991 /* wombat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wombat.jpg; path = animals/wombat.jpg; sourceTree = "<group>"; };
+		50CE043C1E54819B00A4AB03 /* titleView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = titleView.jpg; sourceTree = "<group>"; };
+		50E480A71D0549F7008870C5 /* TableViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E480AB1D0549F7008870C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50E480AD1D0549F7008870C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50E480AE1D0549F7008870C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50E480B01D0549F7008870C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50E480B11D0549F7008870C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50E480B41D0549F7008870C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E480B61D0549F7008870C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50E480B91D0549F7008870C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50E480BB1D0549F7008870C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E480C11D054A05008870C5 /* DataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCenter.h; sourceTree = "<group>"; };
+		50E480C21D054A05008870C5 /* DataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCenter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E480A41D0549F7008870C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E4809E1D0549F7008870C5 = {
+			isa = PBXGroup;
+			children = (
+				50E480A91D0549F7008870C5 /* TableViewExample */,
+				50E480A81D0549F7008870C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50E480A81D0549F7008870C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E480A71D0549F7008870C5 /* TableViewExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E480A91D0549F7008870C5 /* TableViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				50E480AD1D0549F7008870C5 /* AppDelegate.h */,
+				50E480AE1D0549F7008870C5 /* AppDelegate.m */,
+				50E480B01D0549F7008870C5 /* ViewController.h */,
+				50E480B11D0549F7008870C5 /* ViewController.m */,
+				50E480C11D054A05008870C5 /* DataCenter.h */,
+				50E480C21D054A05008870C5 /* DataCenter.m */,
+				50E480B31D0549F7008870C5 /* Main.storyboard */,
+				50E480B61D0549F7008870C5 /* Assets.xcassets */,
+				50E480C41D054BEF008870C5 /* image */,
+				50E480B81D0549F7008870C5 /* LaunchScreen.storyboard */,
+				50E480BB1D0549F7008870C5 /* Info.plist */,
+				50E480AA1D0549F7008870C5 /* Supporting Files */,
+			);
+			path = TableViewExample;
+			sourceTree = "<group>";
+		};
+		50E480AA1D0549F7008870C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50E480AB1D0549F7008870C5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50E480C41D054BEF008870C5 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				50CE043C1E54819B00A4AB03 /* titleView.jpg */,
+				509D8B6C1E559186005A4991 /* bear.jpg */,
+				509D8B6D1E559186005A4991 /* black_swan.jpg */,
+				509D8B6E1E559186005A4991 /* buffalo.jpg */,
+				509D8B6F1E559186005A4991 /* camel.jpg */,
+				509D8B701E559186005A4991 /* cockatoo.jpg */,
+				509D8B711E559186005A4991 /* dog.jpg */,
+				509D8B721E559186005A4991 /* donkey.jpg */,
+				509D8B731E559186005A4991 /* duck.jpg */,
+				509D8B741E559186005A4991 /* elephant.jpg */,
+				509D8B751E559186005A4991 /* emu.jpg */,
+				509D8B761E559186005A4991 /* giraffe.jpg */,
+				509D8B771E559186005A4991 /* greater_rhea.jpg */,
+				509D8B781E559186005A4991 /* guinea_pig.jpg */,
+				509D8B791E559186005A4991 /* hippopotamus.jpg */,
+				509D8B7A1E559186005A4991 /* horse.jpg */,
+				509D8B7B1E559186005A4991 /* koala.jpg */,
+				509D8B7C1E559186005A4991 /* lion.jpg */,
+				509D8B7D1E559186005A4991 /* llama.jpg */,
+				509D8B7E1E559186005A4991 /* manatus.jpg */,
+				509D8B7F1E559186005A4991 /* meerkat.jpg */,
+				509D8B801E559186005A4991 /* panda.jpg */,
+				509D8B811E559186005A4991 /* peacock.jpg */,
+				509D8B821E559186005A4991 /* pig.jpg */,
+				509D8B831E559186005A4991 /* platypus.jpg */,
+				509D8B841E559186005A4991 /* polar_bear.jpg */,
+				509D8B851E559186005A4991 /* rhinoceros.jpg */,
+				509D8B861E559186005A4991 /* seagull.jpg */,
+				509D8B871E559186005A4991 /* tasmania_devil.jpg */,
+				509D8B881E559186005A4991 /* whale_shark.jpg */,
+				509D8B891E559186005A4991 /* whale.jpg */,
+				509D8B8A1E559186005A4991 /* wombat.jpg */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E480A61D0549F7008870C5 /* TableViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E480BE1D0549F7008870C5 /* Build configuration list for PBXNativeTarget "TableViewExample" */;
+			buildPhases = (
+				50E480A31D0549F7008870C5 /* Sources */,
+				50E480A41D0549F7008870C5 /* Frameworks */,
+				50E480A51D0549F7008870C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewExample;
+			productName = TableViewExample;
+			productReference = 50E480A71D0549F7008870C5 /* TableViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E4809F1D0549F7008870C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = WingsCompany;
+				TargetAttributes = {
+					50E480A61D0549F7008870C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 50E480A21D0549F7008870C5 /* Build configuration list for PBXProject "TableViewExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E4809E1D0549F7008870C5;
+			productRefGroup = 50E480A81D0549F7008870C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E480A61D0549F7008870C5 /* TableViewExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E480A51D0549F7008870C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E480BA1D0549F7008870C5 /* LaunchScreen.storyboard in Resources */,
+				509D8B9B1E559186005A4991 /* lion.jpg in Resources */,
+				509D8BA61E559186005A4991 /* tasmania_devil.jpg in Resources */,
+				509D8B931E559186005A4991 /* elephant.jpg in Resources */,
+				509D8BA51E559186005A4991 /* seagull.jpg in Resources */,
+				509D8B8D1E559186005A4991 /* buffalo.jpg in Resources */,
+				509D8B8E1E559186005A4991 /* camel.jpg in Resources */,
+				509D8B8B1E559186005A4991 /* bear.jpg in Resources */,
+				509D8B951E559186005A4991 /* giraffe.jpg in Resources */,
+				50CE043D1E54819B00A4AB03 /* titleView.jpg in Resources */,
+				509D8B8F1E559186005A4991 /* cockatoo.jpg in Resources */,
+				509D8B9C1E559186005A4991 /* llama.jpg in Resources */,
+				509D8BA01E559186005A4991 /* peacock.jpg in Resources */,
+				509D8B961E559186005A4991 /* greater_rhea.jpg in Resources */,
+				509D8B901E559186005A4991 /* dog.jpg in Resources */,
+				509D8B9D1E559186005A4991 /* manatus.jpg in Resources */,
+				50E480B71D0549F7008870C5 /* Assets.xcassets in Resources */,
+				509D8B971E559186005A4991 /* guinea_pig.jpg in Resources */,
+				509D8B9F1E559186005A4991 /* panda.jpg in Resources */,
+				509D8BA91E559186005A4991 /* wombat.jpg in Resources */,
+				509D8BA21E559186005A4991 /* platypus.jpg in Resources */,
+				509D8B8C1E559186005A4991 /* black_swan.jpg in Resources */,
+				509D8BA71E559186005A4991 /* whale_shark.jpg in Resources */,
+				509D8BA31E559186005A4991 /* polar_bear.jpg in Resources */,
+				50E480B51D0549F7008870C5 /* Main.storyboard in Resources */,
+				509D8B981E559186005A4991 /* hippopotamus.jpg in Resources */,
+				509D8B921E559186005A4991 /* duck.jpg in Resources */,
+				509D8B9E1E559186005A4991 /* meerkat.jpg in Resources */,
+				509D8B9A1E559186005A4991 /* koala.jpg in Resources */,
+				509D8BA41E559186005A4991 /* rhinoceros.jpg in Resources */,
+				509D8B991E559186005A4991 /* horse.jpg in Resources */,
+				509D8BA11E559186005A4991 /* pig.jpg in Resources */,
+				509D8BA81E559186005A4991 /* whale.jpg in Resources */,
+				509D8B911E559186005A4991 /* donkey.jpg in Resources */,
+				509D8B941E559186005A4991 /* emu.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E480A31D0549F7008870C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E480B21D0549F7008870C5 /* ViewController.m in Sources */,
+				50E480AF1D0549F7008870C5 /* AppDelegate.m in Sources */,
+				50E480C31D054A05008870C5 /* DataCenter.m in Sources */,
+				50E480AC1D0549F7008870C5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		50E480B31D0549F7008870C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E480B41D0549F7008870C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50E480B81D0549F7008870C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E480B91D0549F7008870C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50E480BC1D0549F7008870C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50E480BD1D0549F7008870C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50E480BF1D0549F7008870C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TableViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50E480C01D0549F7008870C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.TableViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E480A21D0549F7008870C5 /* Build configuration list for PBXProject "TableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E480BC1D0549F7008870C5 /* Debug */,
+				50E480BD1D0549F7008870C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E480BE1D0549F7008870C5 /* Build configuration list for PBXNativeTarget "TableViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E480BF1D0549F7008870C5 /* Debug */,
+				50E480C01D0549F7008870C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50E4809F1D0549F7008870C5 /* Project object */;
+}
