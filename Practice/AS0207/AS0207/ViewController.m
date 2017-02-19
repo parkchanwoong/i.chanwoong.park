@@ -57,7 +57,7 @@
     UIScrollView *sv = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width  , self.view.frame.size.height)];
     [sv setContentSize:CGSizeMake(self.view.frame.size.width*2  , self.view.frame.size.height)];
     sv.delegate = self;
-    sv.pagingEnabled = NO;
+    sv.pagingEnabled = YES;
     [self.view addSubview:sv];
     
     UIView *newView1 = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
