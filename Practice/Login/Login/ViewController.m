@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "NewMemberViewController.h"
 @interface ViewController ()
 <UITextFieldDelegate,UIScrollViewDelegate>
 @property UITextField *tfId;
@@ -27,6 +27,7 @@
     UILabel* login = [[UILabel alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2-30, self.view.frame.origin.y+100, self.view.frame.size.width/2, 20)];
     [login setText:@"login 화면"];
     login.textColor = [UIColor blueColor];
+    //login.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:login];
     
     // 스크롤 뷰
@@ -69,6 +70,7 @@
     self.tfPw.textAlignment = NSTextAlignmentCenter;
     self.tfPw.layer.borderWidth = 2;
     self.tfPw.layer.borderColor = [UIColor blackColor].CGColor;
+    [self.tfPw setSecureTextEntry:YES];
     //[self.tfPw resignFirstResponder];
     self.tfPw.delegate = self;
     
@@ -89,6 +91,7 @@
     [btn2 setTitle:@"회원가입" forState:UIControlStateNormal];
     [btn2 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [btn2 setTitleColor:[UIColor purpleColor] forState:UIControlStateSelected];
+    [btn2 addTarget:self action:@selector(nextPage:) forControlEvents:UIControlEventTouchDown];
     btn2.layer.borderWidth = 2;
     btn2.layer.borderColor = [UIColor blackColor].CGColor;
     [self.scrollView addSubview:btn2];
@@ -96,17 +99,28 @@
   
 }
 
+- (void)nextPage:(UIButton *)sender
+{
+    NewMemberViewController *newMVC = [[NewMemberViewController alloc]init];
+    [newMVC setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
+    
+    [self.navigationController pushViewController:newMVC animated:YES];
+}
+
+
 - (void)click:(UITextField *)sender
 
-{
-    if ([self.tfId  isEqual:@"aaa"])
+{   NSString *answer = @"aaa";
+    NSString *pwAnswer = @"1a2a3a";
+    if (self.tfId.text == self.tfPw.text)
+    //if ([self.tfId.text isEqual:answer] && [self.tfPw.text isEqual:pwAnswer])
     {
         NSLog(@"로그인 성공");
     }
-         else
-         {
-             NSLog(@"로그인 실패");
-         }
+    else
+    {
+        NSLog(@"로그인 실패");
+    }
     
     
     
@@ -114,22 +128,24 @@
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {
-    NSLog(@"asd");
+    //NSLog(@"asd");
     [self.scrollView setContentOffset:CGPointMake(0, 80) animated:YES];
     
 }
 
 - (void)textFieldDidEndEditing:(UITextField *)textField
 {
-    NSLog(@"asda");
+    //NSLog(@"asda");
     [self.scrollView setContentOffset:CGPointMake(0, 0) animated:YES];
     
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)text
 {
-    if(self.tfId == text) [self.tfPw becomeFirstResponder];
-                    else  [self.tfPw resignFirstResponder];
+    if(self.tfId == text)
+        [self.tfPw becomeFirstResponder];
+                    else
+                        [self.tfPw resignFirstResponder];
     //[self.tfPw resignFirstResponder];
     return YES;
     
