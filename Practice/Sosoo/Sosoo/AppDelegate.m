@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  KakaoImitation
+//  Sosoo
 //
-//  Created by 박찬웅 on 2017. 2. 22..
+//  Created by 박찬웅 on 2017. 2. 27..
 //  Copyright © 2017년 Parkchanwoong. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "ViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,30 +16,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    
-    ViewController *vc = [[ViewController alloc]init];
-    
-    //UIStoryboard *sto = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    
-    UINavigationController *navi= [[UINavigationController alloc]initWithRootViewController:vc];
-    UINavigationController *navi2 = [[UINavigationController alloc]initWithRootViewController:vc];
-    
-    UITabBarController *tab = [[UITabBarController alloc]init];
-    tab.viewControllers = @[navi,navi2];
-    
-    UITabBarItem *item = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemRecents tag:100];
-    UITabBarItem *item2 = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemDownloads tag:200];
-
-    [navi setTabBarItem:item];
-    [navi2 setTabBarItem:item2];
-    
-    
-    
-    self.window.rootViewController = tab;
-    [self.window makeKeyAndVisible];
-    
+    // Override point for customization after application launch.
     return YES;
 }
 

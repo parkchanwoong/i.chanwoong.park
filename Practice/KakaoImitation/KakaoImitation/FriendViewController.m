@@ -78,7 +78,7 @@
             if (indexPath.row == 0)
             {
                 cell.textLabel.text = @"자동 친구 추가";
-                
+                //************************이 부분은 꺼져도 안날아감*************************//
                 UISwitch *temp = [[UISwitch alloc] init];
                 cell.accessoryView = temp;
                 [temp addTarget:self action:@selector(autoFrinedsAdd:) forControlEvents:UIControlEventValueChanged];
@@ -94,7 +94,7 @@
             
             cell.textLabel.text = @"친구 추천 허용";
 //            [cell setSelectionStyle:UITableViewCellSelectionStyleNone];
-            
+          //*********************이 부분은 꺼지면 날아감**********************//
             UISwitch *temp1 = [[UISwitch alloc]init];
             temp1.on = [[DataCenter sharedData] switchOnOff];
             [temp1 addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventValueChanged];

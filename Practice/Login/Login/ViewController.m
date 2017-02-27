@@ -7,7 +7,9 @@
 //
 
 #import "ViewController.h"
+#import "LoginNextViewController.h"
 #import "NewMemberViewController.h"
+#import "DataCenter.h"
 @interface ViewController ()
 <UITextFieldDelegate,UIScrollViewDelegate>
 @property UITextField *tfId;
@@ -84,38 +86,63 @@
     [btn1 setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
     btn1.layer.borderWidth = 2;
     btn1.layer.borderColor = [UIColor blackColor].CGColor;
-    [btn1 addTarget:self action:@selector(click:) forControlEvents:UIControlEventTouchDown];
+    [btn1 addTarget:self action:@selector(login:) forControlEvents:UIControlEventTouchDown];
     [self.scrollView addSubview:btn1];
     
     UIButton *btn2 = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width/2+20, btn1.frame.origin.y, 100, 50)];
     [btn2 setTitle:@"회원가입" forState:UIControlStateNormal];
     [btn2 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [btn2 setTitleColor:[UIColor purpleColor] forState:UIControlStateSelected];
-    [btn2 addTarget:self action:@selector(nextPage:) forControlEvents:UIControlEventTouchDown];
+    [btn2 addTarget:self action:@selector(newMember:) forControlEvents:UIControlEventTouchDown];
     btn2.layer.borderWidth = 2;
     btn2.layer.borderColor = [UIColor blackColor].CGColor;
     [self.scrollView addSubview:btn2];
     
+    
+//    self.tfId.text = [DataCenter sharedInfo].loginId;
+//    self.tfPw.text = [DataCenter sharedInfo].loginPw;
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(noti:) name:@"Noti" object:nil];
   
 }
-
-- (void)nextPage:(UIButton *)sender
+///////회원가입 버튼
+- (void)newMember:(UIButton *)sender
 {
     NewMemberViewController *newMVC = [[NewMemberViewController alloc]init];
     [newMVC setModalTransitionStyle:UIModalTransitionStyleCrossDissolve];
     
     [self.navigationController pushViewController:newMVC animated:YES];
+    
+    
 }
 
+- (void)noti:(NSNotification *)noti
+{
+    NSLog(@"%@",noti.object);
+}
 
-- (void)click:(UITextField *)sender
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
 
-{   NSString *answer = @"aaa";
-    NSString *pwAnswer = @"1a2a3a";
-    if (self.tfId.text == self.tfPw.text)
-    //if ([self.tfId.text isEqual:answer] && [self.tfPw.text isEqual:pwAnswer])
+/////로그인버튼
+- (void)login:(UITextField *)sender
+
+{
+    LoginNextViewController *loginNext = [[LoginNextViewController alloc]initWithNibName:@"LoginNextViewController" bundle:nil];
+  
+    if ([self.tfId.text isEqual:[DataCenter sharedInfo].loginId] && [self.tfPw.text isEqual:[DataCenter sharedInfo].loginPw])
     {
+        
         NSLog(@"로그인 성공");
+        [loginNext setModalTransitionStyle:UIModalTransitionStylePartialCurl];
+        
+        [self presentViewController:loginNext animated:YES completion:nil];
+        
+// 실수      [[NSUserDefaults standardUserDefaults] setObject:self.tfId.text forKey:@"userID"];
+// 실수      [[NSUserDefaults standardUserDefaults] setObject:self.tfPw.text forKey:@"userPW"];
+        
     }
     else
     {
@@ -144,8 +171,9 @@
 {
     if(self.tfId == text)
         [self.tfPw becomeFirstResponder];
-                    else
-                        [self.tfPw resignFirstResponder];
+    else{
+        [self.tfPw resignFirstResponder];
+    }
     //[self.tfPw resignFirstResponder];
     return YES;
     

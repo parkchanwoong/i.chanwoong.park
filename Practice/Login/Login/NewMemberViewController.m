@@ -7,7 +7,7 @@
 //
 
 #import "NewMemberViewController.h"
-
+#import "DataCenter.h"
 @interface NewMemberViewController ()
 <UITextFieldDelegate,UIScrollViewDelegate>
 @property UILabel *label1;
@@ -16,12 +16,18 @@
 @property UITextField *tfPw;
 @property UITextField *tfPwRe;
 @property UIButton *btn1;
+@property UIView *toolbar;
+@property BOOL toolBarUp;
+
 @end
 
 @implementation NewMemberViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.toolBarUp = NO;
+    
     // Do any additional setup after loading the view from its nib.
     UILabel *label1 = [[UILabel alloc]initWithFrame:CGRectMake(self.view.frame.size.width/2-30,self.view.frame.origin.y+100, self.view.frame.size.width/2, 20)];
     [label1 setText:@"Signup Page"];
@@ -77,6 +83,7 @@
     self.tfPw.layer.borderWidth = 2;
     self.tfPw.layer.borderColor = [UIColor grayColor].CGColor;
     self.tfPw.delegate = self;
+    [self.tfPw setSecureTextEntry:YES];
     [self.scrollview addSubview:self.tfPw];
     
     //한번 더
@@ -86,6 +93,7 @@
     self.tfPwRe.layer.borderColor = [UIColor grayColor].CGColor;
     self.tfPwRe.layer.borderWidth = 2;
     self.tfPwRe.delegate = self;
+    [self.tfPwRe setSecureTextEntry:YES];
     [self.scrollview addSubview:self.tfPwRe];
     
     
@@ -99,12 +107,71 @@
     [self.btn1 addTarget:self action:@selector(okNewMember:) forControlEvents:UIControlEventTouchDown];
     [self.scrollview addSubview:self.btn1];
     
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"Noti" object:@"박찬웅"];
     
+    
+    ///////////////////////////   노티로 키보드만큼 올리기   //////////////////////////
+    
+    
+    UIView *toolbar = [[UIView alloc]initWithFrame:CGRectMake (0, self.view.frame.size.height - 40  , self.view.frame.size.width, 50)];
+    [toolbar setBackgroundColor:[UIColor blueColor]];
+    [self.view addSubview:toolbar];
+    self.toolbar = toolbar;
+    
+    
+   
+    [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(keyboardUp:) name:UIKeyboardWillShowNotification object:nil];
+    [NSNotificationCenter.defaultCenter addObserver:self selector:@selector(keyboardDown:) name:UIKeyboardWillHideNotification object:nil];
+    
+    [DataCenter sharedInfo].dic = @{@"":@""};
 }
 
+- (void)keyboardUp:(NSNotification *)sender
+{
+    CGSize keyboardSize = [[sender.userInfo objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
+    CGRect originFrame = self.toolbar.frame;
+    if (self.toolBarUp == NO) {
+        self.toolbar.frame = CGRectMake(originFrame.origin.x, originFrame.origin.y - keyboardSize.height, originFrame.size.width, originFrame.size.height);
+    }
+    
+    
+    self.toolBarUp = YES;
+
+}
+
+- (void)keyboardDown:(NSNotification *)sender
+{
+    CGSize keyboardSize = [[sender.userInfo objectForKey:UIKeyboardFrameBeginUserInfoKey] CGRectValue].size;
+    CGRect originFrame = self.toolbar.frame;
+    if (self.toolBarUp == YES) {
+        self.toolbar.frame = CGRectMake(originFrame.origin.x, originFrame.origin.y + keyboardSize.height, originFrame.size.width, originFrame.size.height);
+    }
+    self.toolBarUp = NO;
+
+}
+
+    //////////////////////////////   여기까지   //////////////////////
+
+
+//회원가입 완료
 - (void)okNewMember:(UIButton *)sender
 {
+    if(self.tfPw.text == self.tfPwRe.text)
+    {
+        
+        [DataCenter sharedInfo].loginId = self.tfId.text;
+        [DataCenter sharedInfo].loginPw = self.tfPw.text;
+//        [DataCenter sharedInfo].loginPWRe = self.tfPwRe.text;
+        [[DataCenter sharedInfo] saveData];
+        NSLog(@"회원 가입 완료");
+        
     [self.navigationController popViewControllerAnimated:YES];
+        
+    }
+    else
+    {
+        NSLog(@"다시 입력하세요");
+    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -138,9 +205,16 @@
     else
     {
         [self.tfPwRe resignFirstResponder];
+        
     }
     return YES;
 }
+
+- (void)postMethod
+{
+    [[NSNotificationCenter defaultCenter]postNotificationName:@"NotificationKey" object:@"wing"];
+}
+
 /*
 #pragma mark - Navigation
 
