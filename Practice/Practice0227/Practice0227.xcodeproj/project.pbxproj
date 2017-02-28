@@ -325,6 +325,7 @@
 				2EE59AD11E63C15200CAB0B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

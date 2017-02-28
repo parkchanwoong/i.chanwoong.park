@@ -52,21 +52,30 @@
     return YES;
 }
 
+
 - (NSInteger)sosoo:(NSInteger)number
 {
+    
     NSMutableArray *arr = [[NSMutableArray alloc]init];
-    for (NSInteger i = 1; i <= (NSInteger)self.TF.text; i++)
+    for (NSInteger i = 1; i <= number; i++)
     {
-        
-        if ((NSInteger)self.TF.text % i == 0 && (NSInteger)self.TF.text / i == 1)
+        NSInteger count = 0;
+        for (NSInteger j = 1; j <= i; j++)
         {
-            for (NSInteger j = 0; j <= (NSInteger)self.TF.text; j++) {
-                [arr addObject:[NSNumber numberWithInteger:i]];
-                
+            if (i % j == 0)
+            {
+                count += 1;
             }
         }
         
+        if(count == 2)
+        {
+            [arr addObject:[NSString stringWithFormat:@"%ld", i]];
+        }
+        
     }
+    
+    NSLog(@"%@", arr);
     return arr.count;
 }
 
