@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="hXW-Ql-IAd">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lOg-HU-ear">
+                                <rect key="frame" x="-0.5" y="-0.5" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dPy-ku-RhX" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1078"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="jM9-Oa-K4F">
+                                                <rect key="frame" x="16" y="16" width="343" height="1046"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DS4-hY-e1h">
+                                                        <rect key="frame" x="0.0" y="0.0" width="343" height="117"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="DS4-hY-e1h" secondAttribute="height" multiplier="375:128" id="tbY-sn-0gl"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odY-yl-iRB">
+                                                        <rect key="frame" x="0.0" y="133" width="343" height="913"/>
+                                                        <string key="text">상 속 레드벨벳(Red Velvet) 아이린, 슬기, 예리는 자신들의 노래인 ‘루키’를 틀면서 남다른 흥을 선보이고 있다. 또한 안경을 착용한 그들은 눈부신 미모로 팬들의 이목이 모이게 했다.
+ 
+이를 본 네티즌들은 “레드벨벳(Red Velvet) 아이린-슬기-예리, 미모 미쳤다”, “레드벨벳(Red Velvet) 아이린-슬기-예리, 안경이 진리”, “레드벨벳(Red Velvet) 아이린-슬기-예리, 루팡 루팡 루팡” 등 다양한 반응을 보였다.
+ 
+x
+한편, 아이린, 슬기, 예리가 속한 레드벨벳(RedVelvet)은 다양한 분야에서 활발히 활동 중이다. 또한 내일인 3월 5일은 예리의 생일이다.상 속 레드벨벳(Red Velvet) 아이린, 슬기, 예리는 자신들의 노래인 ‘루키’를 틀면서 남다른 흥을 선보이고 있다. 또한 안경을 착용한 그들은 눈부신 미모로 팬들의 이목이 모이게 했다.
+ 
+이를 본 네티즌들은 “레드벨벳(Red Velvet) 아이린-슬기-예리, 미모 미쳤다”, “레드벨벳(Red Velvet) 아이린-슬기-예리, 안경이 진리”, “레드벨벳(Red Velvet) 아이린-슬기-예리, 루팡 루팡 루팡” 등 다양한 반응을 보였다.
+ 
+x
+한편, 아이린, 슬기, 예리가 속한 레드벨벳(RedVelvet)은 다양한 분야에서 활발히 활동 중이다. 또한 내일인 3월 5일은 예리의 생일이다.상 속 레드벨벳(Red Velvet) 아이린, 슬기, 예리는 자신들의 노래인 ‘루키’를 틀면서 남다른 흥을 선보이고 있다. 또한 안경을 착용한 그들은 눈부신 미모로 팬들의 이목이 모이게 했다.
+ 
+이를 본 네티즌들은 “레드벨벳(Red Velvet) 아이린-슬기-예리, 미모 미쳤다”, “레드벨벳(Red Velvet) 아이린-슬기-예리, 안경이 진리”, “레드벨벳(Red Velvet) 아이린-슬기-예리, 루팡 루팡 루팡” 등 다양한 반응을 보였다.
+ 
+x
+한편, 아이린, 슬기, 예리가 속한 레드벨벳(RedVelvet)은 다양한 분야에서 활발히 활동 중이다. 또한 내일인 3월 5일은 예리의 생일이다.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="jM9-Oa-K4F" secondAttribute="trailing" constant="16" id="6d0-hi-pzh"/>
+                                            <constraint firstItem="jM9-Oa-K4F" firstAttribute="top" secondItem="dPy-ku-RhX" secondAttribute="top" constant="16" id="D9Q-zH-tuc"/>
+                                            <constraint firstAttribute="height" secondItem="jM9-Oa-K4F" secondAttribute="height" constant="32" id="aeH-ws-ZGc"/>
+                                            <constraint firstItem="jM9-Oa-K4F" firstAttribute="leading" secondItem="dPy-ku-RhX" secondAttribute="leading" constant="16" id="k2V-Zn-GNf"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="dPy-ku-RhX" secondAttribute="bottom" id="6me-h1-F0c"/>
+                                    <constraint firstAttribute="trailing" secondItem="dPy-ku-RhX" secondAttribute="trailing" id="E9G-qT-86b"/>
+                                    <constraint firstItem="dPy-ku-RhX" firstAttribute="width" secondItem="lOg-HU-ear" secondAttribute="width" id="Qph-fK-XAJ"/>
+                                    <constraint firstItem="dPy-ku-RhX" firstAttribute="leading" secondItem="lOg-HU-ear" secondAttribute="leading" id="spo-Kp-AdU"/>
+                                    <constraint firstItem="dPy-ku-RhX" firstAttribute="top" secondItem="lOg-HU-ear" secondAttribute="top" id="x2R-Do-KDD"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lOg-HU-ear" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="FGj-IF-0OR"/>
+                            <constraint firstItem="lOg-HU-ear" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ZRk-VC-7DH"/>
+                            <constraint firstItem="lOg-HU-ear" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bpO-tr-maL"/>
+                            <constraint firstItem="lOg-HU-ear" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="meK-ca-u3T"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Lga-ZW-RrX"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="137.18140929535232"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jic-E8-KDL">
+            <objects>
+                <viewController id="zX7-7A-Oum" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lFm-D5-AzM"/>
+                        <viewControllerLayoutGuide type="bottom" id="Kte-Hs-rHB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9iH-QM-M1u">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="2017"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VXp-0v-SIR">
+                                <rect key="frame" x="-0.5" y="0.0" width="375" height="2017"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="saE-jd-sr5" userLabel="ContentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1964.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="xDi-vb-F80">
+                                                <rect key="frame" x="16" y="16" width="343" height="1932.5"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="movingCat.gif" translatesAutoresizingMaskIntoConstraints="NO" id="erw-mN-hQZ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="343" height="800.5"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="erw-mN-hQZ" secondAttribute="height" multiplier="300:700" id="r6Y-7c-Ldk"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NPH-HW-h3F">
+                                                        <rect key="frame" x="0.0" y="816.5" width="343" height="1116"/>
+                                                        <mutableString key="text">LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabel</mutableString>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="xDi-vb-F80" firstAttribute="top" secondItem="saE-jd-sr5" secondAttribute="top" constant="16" id="YcV-1V-W81"/>
+                                            <constraint firstAttribute="height" secondItem="xDi-vb-F80" secondAttribute="height" constant="32" id="pcr-kW-5h5"/>
+                                            <constraint firstAttribute="trailing" secondItem="xDi-vb-F80" secondAttribute="trailing" constant="16" id="t5a-ma-nvr"/>
+                                            <constraint firstItem="xDi-vb-F80" firstAttribute="leading" secondItem="saE-jd-sr5" secondAttribute="leading" constant="16" id="zIX-V6-z6V"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="saE-jd-sr5" firstAttribute="width" secondItem="VXp-0v-SIR" secondAttribute="width" id="JtH-d5-PcU"/>
+                                    <constraint firstAttribute="bottom" secondItem="saE-jd-sr5" secondAttribute="bottom" id="Wcz-bP-xwg"/>
+                                    <constraint firstItem="saE-jd-sr5" firstAttribute="top" secondItem="VXp-0v-SIR" secondAttribute="top" id="ZLb-x1-Ht4"/>
+                                    <constraint firstItem="saE-jd-sr5" firstAttribute="leading" secondItem="VXp-0v-SIR" secondAttribute="leading" id="gbO-Gz-etg"/>
+                                    <constraint firstAttribute="trailing" secondItem="saE-jd-sr5" secondAttribute="trailing" id="k86-zE-2aB"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VXp-0v-SIR" firstAttribute="height" secondItem="9iH-QM-M1u" secondAttribute="height" id="Rab-sA-cOi"/>
+                            <constraint firstItem="VXp-0v-SIR" firstAttribute="width" secondItem="9iH-QM-M1u" secondAttribute="width" id="qfD-mO-ir5"/>
+                            <constraint firstItem="VXp-0v-SIR" firstAttribute="centerX" secondItem="9iH-QM-M1u" secondAttribute="centerX" id="uCV-o0-UwG"/>
+                            <constraint firstItem="VXp-0v-SIR" firstAttribute="centerY" secondItem="9iH-QM-M1u" secondAttribute="centerY" id="yJ1-Ay-ZKf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="rXV-AQ-nd3"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="2017"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7wF-nc-bDY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2310" y="833"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Md4-DP-uBA">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hXW-Ql-IAd" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="izc-m4-hDr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="zX7-7A-Oum" kind="relationship" relationship="rootViewController" id="mkb-NR-Qit"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KJb-TV-KTN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1394.4000000000001" y="833.43328335832086"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2.jpg" width="860" height="1419"/>
+        <image name="movingCat.gif" width="705" height="591"/>
+    </resources>
+</document>

@@ -27,7 +27,7 @@
             </objects>
             <point key="canvasLocation" x="214" y="-243"/>
         </scene>
-        <!--ㅋㅋㅋㅋ-->
+        <!--테이블 뷰-->
         <scene sceneID="TM3-uW-m2B">
             <objects>
                 <viewController storyboardIdentifier="ViewController2" id="7aB-Tm-sV6" customClass="ViewController2" sceneMemberID="viewController">
@@ -47,7 +47,7 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="80"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VD5-cC-9SL" id="f0c-wh-f4x">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="79.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NZT-yp-muW">
@@ -86,7 +86,7 @@
                             <constraint firstItem="npp-CS-uRn" firstAttribute="top" secondItem="k0X-UX-9qm" secondAttribute="bottom" id="q4W-zi-DuE"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="ㅋㅋㅋㅋ" id="8bv-pa-5pZ">
+                    <navigationItem key="navigationItem" title="테이블 뷰" id="8bv-pa-5pZ">
                         <barButtonItem key="rightBarButtonItem" title="추가" id="5A9-1L-NUr">
                             <connections>
                                 <segue destination="lEK-87-YfD" kind="show" id="mcw-dc-naP"/>
@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="1380" y="-204"/>
         </scene>
-        <!--View Controller-->
+        <!--친구 추가중...-->
         <scene sceneID="Zsh-KE-Z2M">
             <objects>
-                <viewController id="lEK-87-YfD" sceneMemberID="viewController">
+                <viewController id="lEK-87-YfD" customClass="FriendsAddViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="zlX-Pn-dSa"/>
                         <viewControllerLayoutGuide type="bottom" id="6N0-VK-wLb"/>
@@ -123,6 +123,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="lEK-87-YfD" id="BRJ-EG-VIY"/>
+                                </connections>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fqh-dC-O1w">
                                 <rect key="frame" x="148" y="185" width="171" height="30"/>
@@ -130,6 +133,9 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="lEK-87-YfD" id="FD1-qu-TAo"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="이름" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BGU-Qs-MDw">
                                 <rect key="frame" x="49" y="138" width="59" height="39"/>
@@ -141,7 +147,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="EeS-5A-AyV"/>
+                    <navigationItem key="navigationItem" title="친구 추가중..." id="oyP-0f-ZE7">
+                        <barButtonItem key="rightBarButtonItem" title="확인" id="xxh-jW-T9w">
+                            <connections>
+                                <action selector="addFriend:" destination="lEK-87-YfD" id="WUD-x0-whW"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WdQ-B2-hD5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

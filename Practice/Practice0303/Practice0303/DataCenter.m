@@ -49,7 +49,7 @@
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *basePath = [paths objectAtIndex:0];
     
-    NSString *docuPath = [basePath stringByAppendingPathComponent:@"Sample"];
+    NSString *docuPath = [basePath stringByAppendingPathComponent:@"Sample.plist"];
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
     if(![fileManager fileExistsAtPath:docuPath])
@@ -67,7 +67,7 @@
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
     NSString *basePath = [paths objectAtIndex:0];
     
-    NSString *docuPath = [basePath stringByAppendingPathComponent:@"Sample"];
+    NSString *docuPath = [basePath stringByAppendingPathComponent:@"Sample.plist"];
     
     NSFileManager *fileManager = [NSFileManager defaultManager];
     if(![fileManager fileExistsAtPath:docuPath])
@@ -75,7 +75,7 @@
         NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"Sample" ofType:@"plist"];
         [fileManager copyItemAtPath:bundlePath toPath:docuPath error:nil];
     }
-    NSDictionary *dic = [NSDictionary dictionaryWithContentsOfFile:docuPath];
+    //NSDictionary *dic = [NSDictionary dictionaryWithContentsOfFile:docuPath];
 }
 
 @end

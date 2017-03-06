@@ -8,6 +8,8 @@
 
 #import "Dimensional.h"
 
+
+
 @implementation Dimensional
 //정사각형넓이      s * s
 - (NSUInteger)squareA:(NSUInteger)s

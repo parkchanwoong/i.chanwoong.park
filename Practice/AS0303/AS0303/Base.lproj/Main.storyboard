@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Xai-NQ-fKH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VlN-zh-rS3">
+                                <rect key="frame" x="-0.5" y="-0.5" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sOZ-6t-uSF">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1426.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dL6-gF-LGX">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="1426.5"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="EbV-HJ-KJf">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="128"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" secondItem="EbV-HJ-KJf" secondAttribute="height" multiplier="375:128" id="jXs-tZ-XR6"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UO9-RK-z3X">
+                                                        <rect key="frame" x="0.0" y="128" width="375" height="1298.5"/>
+                                                        <string key="text">걸그룹 레드벨벳 아이린이 '게임회사 여직원들'를 통해 첫 연기에 도전했다.
+   	
+(사진제공=네이버 TV캐스트)
+25일 오전 10시 네이버TV 캐스트와 다음 웹툰을 통해 웹드라마 '게임회사 여직원들'이 공개된 가운데 이에 앞서 아이린이 생애 첫 연기에 도전한 소감을 전했다. 
+
+아이린은 자신의 캐릭터 아름에 대해 "소심하고 낯을 가리지만 할말은 다 하는 엉뚱한 면이 있다. 귀여운 캐릭터다"며 미소를 지어보였다. 이어 그는 "첫 작품이라 많이 도와주셨다. 조금 어색했지만, 나중에는 서로 장난도 치면서 엽기사진도 찍고 화기애애하게 찍었다"고 덧붙였다.
+
+마지막으로 아이린은 "독특하고 재미있으니 기대 많이 해주시고 아이린도 많이 응원해주세요"라고 밝혔다. 
+
+한편 아이린은 '게임회사 여직원들' 아름 역에 완벽 빙의해 보는 이들의 시선을 사로잡았다.
+
+이영실 에디터
+걸그룹 레드벨벳 아이린이 '게임회사 여직원들'를 통해 첫 연기에 도전했다.
+   	
+(사진제공=네이버 TV캐스트)
+25일 오전 10시 네이버TV 캐스트와 다음 웹툰을 통해 웹드라마 '게임회사 여직원들'이 공개된 가운데 이에 앞서 아이린이 생애 첫 연기에 도전한 소감을 전했다. 
+
+아이린은 자신의 캐릭터 아름에 대해 "소심하고 낯을 가리지만 할말은 다 하는 엉뚱한 면이 있다. 귀여운 캐릭터다"며 미소를 지어보였다. 이어 그는 "첫 작품이라 많이 도와주셨다. 조금 어색했지만, 나중에는 서로 장난도 치면서 엽기사진도 찍고 화기애애하게 찍었다"고 덧붙였다.
+
+마지막으로 아이린은 "독특하고 재미있으니 기대 많이 해주시고 아이린도 많이 응원해주세요"라고 밝혔다. 
+
+한편 아이린은 '게임회사 여직원들' 아름 역에 완벽 빙의해 보는 이들의 시선을 사로잡았다.
+
+이영실 에디터
+걸그룹 레드벨벳 아이린이 '게임회사 여직원들'를 통해 첫 연기에 도전했다.
+   	
+(사진제공=네이버 TV캐스트)
+25일 오전 10시 네이버TV 캐스트와 다음 웹툰을 통해 웹드라마 '게임회사 여직원들'이 공개된 가운데 이에 앞서 아이린이 생애 첫 연기에 도전한 소감을 전했다. 
+
+아이린은 자신의 캐릭터 아름에 대해 "소심하고 낯을 가리지만 할말은 다 하는 엉뚱한 면이 있다. 귀여운 캐릭터다"며 미소를 지어보였다. 이어 그는 "첫 작품이라 많이 도와주셨다. 조금 어색했지만, 나중에는 서로 장난도 치면서 엽기사진도 찍고 화기애애하게 찍었다"고 덧붙였다.
+
+마지막으로 아이린은 "독특하고 재미있으니 기대 많이 해주시고 아이린도 많이 응원해주세요"라고 밝혔다. 
+
+한편 아이린은 '게임회사 여직원들' 아름 역에 완벽 빙의해 보는 이들의 시선을 사로잡았다.
+
+이영실 에디터
+</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstItem="dL6-gF-LGX" firstAttribute="leading" secondItem="sOZ-6t-uSF" secondAttribute="leading" id="3Ek-ma-GpR"/>
+                                            <constraint firstItem="dL6-gF-LGX" firstAttribute="top" secondItem="sOZ-6t-uSF" secondAttribute="top" id="BK9-zs-9HS"/>
+                                            <constraint firstAttribute="height" secondItem="dL6-gF-LGX" secondAttribute="height" id="pX3-uB-DEW"/>
+                                            <constraint firstAttribute="trailing" secondItem="dL6-gF-LGX" secondAttribute="trailing" id="t5V-dV-bnR"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="sOZ-6t-uSF" firstAttribute="leading" secondItem="VlN-zh-rS3" secondAttribute="leading" id="HCE-Oh-vGW"/>
+                                    <constraint firstAttribute="bottom" secondItem="sOZ-6t-uSF" secondAttribute="bottom" id="IZD-UL-rgX"/>
+                                    <constraint firstItem="sOZ-6t-uSF" firstAttribute="top" secondItem="VlN-zh-rS3" secondAttribute="top" id="cge-NA-pty"/>
+                                    <constraint firstItem="sOZ-6t-uSF" firstAttribute="width" secondItem="VlN-zh-rS3" secondAttribute="width" id="sBo-lj-xsS"/>
+                                    <constraint firstAttribute="trailing" secondItem="sOZ-6t-uSF" secondAttribute="trailing" id="zd0-lw-3Cm"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="VlN-zh-rS3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7mk-MJ-Qs4"/>
+                            <constraint firstItem="VlN-zh-rS3" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="E8w-6n-LMC"/>
+                            <constraint firstItem="VlN-zh-rS3" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="gbK-Jg-81N"/>
+                            <constraint firstItem="VlN-zh-rS3" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="lGx-jG-nc0"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="jOz-Gp-cAe"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1076" y="138.98050974512745"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="HlJ-D1-GEz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Xai-NQ-fKH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="B1x-dq-T4l">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZW6-IC-6To"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v2k-N1-P61" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="190" y="139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.jpg" width="540" height="388"/>
+    </resources>
+</document>

@@ -8,8 +8,10 @@
 
 #import "DataCenter.h"
 
-@implementation DataCenter
+static NSString * const FRIEND_NAME = @"name";
+static NSString * const FRIEND_PHONE = @"phone";
 
+@implementation DataCenter
 
 + (instancetype)singleton
 {
@@ -49,7 +51,8 @@
     
     NSMutableArray *friendList = [NSMutableArray arrayWithContentsOfFile:docuPath];
     
-    NSDictionary *dic = @{@"name":name,@"phone":phone};
+    //NSDictionary *dic = @{@"name":name , @"phone":phone};
+    NSDictionary *dic = @{FRIEND_NAME:name,FRIEND_PHONE:phone};
     
     [friendList addObject:dic];
     //저장
