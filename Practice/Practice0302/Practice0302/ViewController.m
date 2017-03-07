@@ -62,8 +62,10 @@
     cameraController.allowsEditing = NO;
     cameraController.delegate = self;
     
-    
-     
+//    UIImagePickerController *photosAlbum = [[UIImagePickerController alloc]init];
+//    photosAlbum.sourceType = UIImagePickerControllerSourceTypeSavedPhotosAlbum;
+//    photosAlbum.allowsEditing = NO;
+//    photosAlbum.delegate = self;
     
     
     
@@ -147,6 +149,7 @@
     
     [picker dismissViewControllerAnimated:YES completion:nil];
 }
+
 
 //- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
 //{
