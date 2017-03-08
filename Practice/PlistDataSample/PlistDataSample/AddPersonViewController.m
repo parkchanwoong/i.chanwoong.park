@@ -59,9 +59,11 @@
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    if (textField.tag == 100) {
+    if (textField.tag == 100)
+    {
         [self.phoneTF becomeFirstResponder];
-    }else
+    }
+    else
     {
         [textField resignFirstResponder];
     }

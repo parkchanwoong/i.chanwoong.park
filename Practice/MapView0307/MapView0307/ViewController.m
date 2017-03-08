@@ -37,15 +37,17 @@ static const CGFloat BASE_LONGITUDE = 2.357701;
     self.locationManager = [[CLLocationManager alloc]init];
     self.locationManager.delegate = self;
     self.locationManager.desiredAccuracy = kCLLocationAccuracyBest;
+    [self.locationManager requestAlwaysAuthorization];
+    //[self.locationManager requestWhenInUseAuthorization];
     [self.locationManager startUpdatingLocation];
     
     
-    [self.locationManager requestWhenInUseAuthorization];
+    
     
     
     
     [self.locationManager startUpdatingLocation];
-//    [self.locationManager requestAlwaysAuthorization];
+
     
     
     [self.mapView setShowsUserLocation:YES];
@@ -73,6 +75,7 @@ static const CGFloat BASE_LONGITUDE = 2.357701;
     [self.mapView addAnnotation:annotation];
     
     [manager stopUpdatingLocation];
+  
 }
 
 - (void)didReceiveMemoryWarning {
