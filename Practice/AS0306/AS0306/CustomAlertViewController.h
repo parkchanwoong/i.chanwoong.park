@@ -10,7 +10,9 @@
 
 @interface CustomAlertViewController : UIAlertController
 
-+ (_Nullable instancetype)alertControllerWithTitle:(nullable NSString *)title message:(nullable NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle okActionURL:(nullable NSString *)urlStr;
-+ (_Nullable instancetype)alertControllerWithTitle:(nullable NSString *)title message:(nullable NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle sender:(nullable UIViewController *)sender segue:(nullable NSString *)segueID;
++ (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle okActionURL:(NSString *)urlStr;
++ (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle sender:(UIViewController *)sender segue:(NSString *)segueID;
+
++ (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle handler:(void (^)(UIAlertAction *action))handler;
 
 @end

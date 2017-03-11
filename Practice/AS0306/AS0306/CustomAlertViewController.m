@@ -83,6 +83,18 @@
     
 }
 
++ (instancetype)alertControllerWithTitle:(NSString *)title message:(NSString *)message preferredStyle:(UIAlertControllerStyle)preferredStyle handler:(void (^)(UIAlertAction *action))handler{
+    
+    CustomAlertViewController *instance = [CustomAlertViewController alertControllerWithTitle:title message:message preferredStyle:preferredStyle]; //취소버튼 있는 얼러트컨트롤러
+    
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:handler];
+    
+    [instance addAction:okAction];
+    
+    return instance;
+    
+}
+
 /*
 #pragma mark - Navigation
 

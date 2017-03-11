@@ -30,8 +30,14 @@
 //    AlertControllerCenter *alert = [[AlertControllerCenter alloc] init];
 //    [self presentViewController:alert.alertController animated:YES completion:nil];
 //    CustomAlertViewController *alert2 = [CustomAlertViewController alertControllerWithTitle:@"타이틀임" message:@"깔깔깔" preferredStyle:UIAlertControllerStyleAlert okActionURL:@"apple.com"];
-    CustomAlertViewController *alert2 = [CustomAlertViewController alertControllerWithTitle:@"test" message:@"test" preferredStyle:UIAlertControllerStyleAlert sender:self segue:@"testSegue"];
+//    CustomAlertViewController *alert2 = [CustomAlertViewController alertControllerWithTitle:@"test" message:@"test" preferredStyle:UIAlertControllerStyleAlert sender:self segue:@"testSegue"];
+//    [self presentViewController:alert2 animated:YES completion:nil];
+    
+    CustomAlertViewController *alert2 = [CustomAlertViewController alertControllerWithTitle:@"test" message:@"test" preferredStyle:UIAlertControllerStyleAlert handler:^(UIAlertAction *action) {
+        [self performSegueWithIdentifier:@"testSegue" sender:nil];
+    }];
     [self presentViewController:alert2 animated:YES completion:nil];
+    
 }
 
 @end
