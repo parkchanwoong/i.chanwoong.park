@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+//별칭을 이용
+//typedef NSString *(^test)(void);
 
 @interface BlockView : UIView
 
+//- (void)changeText:(test)text;
+
+-(void)changeText:(NSString*(^)(NSString *))text;
 @end

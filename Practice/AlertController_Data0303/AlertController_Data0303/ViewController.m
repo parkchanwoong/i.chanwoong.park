@@ -24,20 +24,7 @@
 //    [btn1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
 //    [self.view addSubview:btn1];
     
-    
-    self.alertController = [UIAlertController alertControllerWithTitle:@"제목" message:@"메세지입력" preferredStyle:UIAlertControllerStyleAlert];
-    
-    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
-        NSLog(@"확인 누르면 일어날 일들");
-    }];
-    
-    UIAlertAction *cancel   = [UIAlertAction actionWithTitle:@"취소버튼" style:UIAlertActionStyleCancel handler:nil];
-    
-    UIAlertAction *another = [UIAlertAction actionWithTitle:@"어나더어나더" style:UIAlertActionStyleDestructive handler:nil];
-    
-    [self.alertController addAction:okAction];
-    [self.alertController addAction:cancel];
-    [self.alertController addAction:another];
+  
     
     
     
@@ -61,6 +48,20 @@
 }
 - (IBAction)alertStart:(UIButton *)sender
 {
+    
+    self.alertController = [UIAlertController alertControllerWithTitle:@"제목" message:@"메세지입력" preferredStyle:UIAlertControllerStyleAlert];
+    
+    UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        NSLog(@"확인 누르면 일어날 일들");
+    }];
+    
+    UIAlertAction *cancel   = [UIAlertAction actionWithTitle:@"취소버튼" style:UIAlertActionStyleCancel handler:nil];
+    
+    UIAlertAction *another = [UIAlertAction actionWithTitle:@"어나더어나더" style:UIAlertActionStyleDestructive handler:nil];
+    
+    [self.alertController addAction:okAction];
+    [self.alertController addAction:cancel];
+    [self.alertController addAction:another];
     [self presentViewController:self.alertController animated:YES completion:nil];
 }
 - (IBAction)actionSheet:(UIButton *)sender

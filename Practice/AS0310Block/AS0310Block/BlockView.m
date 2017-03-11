@@ -8,14 +8,34 @@
 
 #import "BlockView.h"
 
+
+
+@interface BlockView()
+
+@property IBOutlet UIButton *btn1;
+@property IBOutlet UILabel *label1;
+
+@property NSString*(^test)(void);
+
+@end
+
 @implementation BlockView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
+//- (void)changeText:(test)text
+//{
+//    self.test = text;
+//}
+
+
+-(void)changeText:(NSString *(^)(NSString *))test
+{
+    self.test = test;
 }
-*/
+
+-(IBAction)selector:(id)sender
+{
+    self.label1.text = self.test();
+}
+
 
 @end

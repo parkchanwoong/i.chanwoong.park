@@ -12,7 +12,7 @@
 
 @interface BlockView()
 
-@property (nonatomic, weak) IBOutlet UILabel * titleLB;
+@property (nonatomic, weak) IBOutlet UILabel *titleLB;
 @property (nonatomic, weak) IBOutlet UIButton *btn;
 
 @property (nonatomic) TextBlock textBlock;
