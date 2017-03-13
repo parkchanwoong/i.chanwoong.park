@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   zzzz.plist
+   MapView0307
+
+   Created by 박찬웅 on 2017. 3. 13..
+   Copyright (c) 2017년 Parkchanwoong. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+    
+    </dict>
+</plist>
+
+<dict>
+    <key>name</key>
+    <string>가가가</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0001</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>나나나</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0002</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>다다다</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0003</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>라라라</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0004</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>마마마</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0005</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>바바바</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0006</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>사사사</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0007</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>아아아</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0008</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>자자자</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0009</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>차차차</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0010</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>카카카</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0011</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>타타타</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0012</string>
+</dict>
+<dict>
+    <key>name</key>
+    <string>파파파</string>
+    <key>phoneNumber</key>
+    <string>010-0000-0013</string>
+</dict>
+
+

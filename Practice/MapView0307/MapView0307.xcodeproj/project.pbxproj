@@ -16,6 +16,7 @@
 		2E3E6E6A1E6E81490032E3BB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3E6E691E6E81490032E3BB /* MapKit.framework */; };
 		2E3E6E6C1E6E8AC50032E3BB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E3E6E6B1E6E8AC50032E3BB /* CoreLocation.framework */; };
 		2E3E6E6F1E6E9F640032E3BB /* NewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E3E6E6E1E6E9F640032E3BB /* NewAnnotation.m */; };
+		2EBB5B671E762D0100A44928 /* zzzz.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2EBB5B661E762D0100A44928 /* zzzz.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		2E3E6E6B1E6E8AC50032E3BB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		2E3E6E6D1E6E9F640032E3BB /* NewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAnnotation.h; sourceTree = "<group>"; };
 		2E3E6E6E1E6E9F640032E3BB /* NewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAnnotation.m; sourceTree = "<group>"; };
+		2EBB5B661E762D0100A44928 /* zzzz.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = zzzz.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				2E3E6E5D1E6E7FE80032E3BB /* Assets.xcassets */,
 				2E3E6E5F1E6E7FE80032E3BB /* LaunchScreen.storyboard */,
 				2E3E6E621E6E7FE80032E3BB /* Info.plist */,
+				2EBB5B661E762D0100A44928 /* zzzz.plist */,
 				2E3E6E511E6E7FE80032E3BB /* Supporting Files */,
 			);
 			path = MapView0307;
@@ -159,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EBB5B671E762D0100A44928 /* zzzz.plist in Resources */,
 				2E3E6E611E6E7FE80032E3BB /* LaunchScreen.storyboard in Resources */,
 				2E3E6E5E1E6E7FE80032E3BB /* Assets.xcassets in Resources */,
 				2E3E6E5C1E6E7FE80032E3BB /* Main.storyboard in Resources */,
@@ -332,6 +336,7 @@
 				2E3E6E671E6E7FE80032E3BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
