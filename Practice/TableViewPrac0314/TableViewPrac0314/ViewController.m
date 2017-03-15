@@ -24,12 +24,7 @@
     
 //닙 파일 연결
     [self.tableView registerNib:[UINib nibWithNibName:@"CustomTableViewCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"CustomTableViewCell"];
-    
-
-                                
-                                
-    
-}
+  }
 
 
 //셀의 갯수
@@ -63,16 +58,16 @@
 //    DetailBooksViewController *dvc = [[DetailBooksViewController alloc]initWithNibName:@"DetailBooksViewController" bundle:[NSBundle mainBundle]];
 //    [self presentViewController:dvc animated:YES completion:nil];
 //    [self.navigationController pushViewController:dvc animated:YES];
-    [self performSegueWithIdentifier:@"DetailSegue" sender:[self.tableView cellForRowAtIndexPath:indexPath]];
+    [self performSegueWithIdentifier:@"DetailSegue" sender:indexPath];
     
 
 }
 
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(NSIndexPath *)sender {
     if ([segue.identifier isEqualToString:@"DetailSegue"]) {
-        DetailBooksViewController *dvc = segue.destinationViewController;
-        dvc.title = [[DataCenter shared].booksName objectAtIndex:[[self.tableView indexPathForCell:sender] row]];
         
+        DetailBooksViewController *dvc = segue.destinationViewController;
+        dvc.cellIndexPath = sender.row;
     }
 }
 

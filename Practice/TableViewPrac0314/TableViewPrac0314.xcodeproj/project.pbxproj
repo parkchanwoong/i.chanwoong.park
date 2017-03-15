@@ -20,7 +20,6 @@
 		2E1B90231E77E0B7007467F6 /* x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E1B90221E77E0B7007467F6 /* x.jpg */; };
 		2E1B90251E77E0EB007467F6 /* hotel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E1B90241E77E0EB007467F6 /* hotel.jpg */; };
 		2E1B90291E77E4D4007467F6 /* DetailBooksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E1B90271E77E4D4007467F6 /* DetailBooksViewController.m */; };
-		2E1B902A1E77E4D4007467F6 /* DetailBooksViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E1B90281E77E4D4007467F6 /* DetailBooksViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +43,6 @@
 		2E1B90241E77E0EB007467F6 /* hotel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hotel.jpg; sourceTree = "<group>"; };
 		2E1B90261E77E4D4007467F6 /* DetailBooksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailBooksViewController.h; sourceTree = "<group>"; };
 		2E1B90271E77E4D4007467F6 /* DetailBooksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailBooksViewController.m; sourceTree = "<group>"; };
-		2E1B90281E77E4D4007467F6 /* DetailBooksViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailBooksViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +83,6 @@
 				2E1B90081E77C7D7007467F6 /* ViewController.m */,
 				2E1B90261E77E4D4007467F6 /* DetailBooksViewController.h */,
 				2E1B90271E77E4D4007467F6 /* DetailBooksViewController.m */,
-				2E1B90281E77E4D4007467F6 /* DetailBooksViewController.xib */,
 				2E1B90181E77C933007467F6 /* CustomTableViewCell.h */,
 				2E1B90191E77C933007467F6 /* CustomTableViewCell.m */,
 				2E1B901A1E77C933007467F6 /* CustomTableViewCell.xib */,
@@ -173,7 +170,6 @@
 				2E1B90251E77E0EB007467F6 /* hotel.jpg in Resources */,
 				2E1B900E1E77C7D7007467F6 /* Assets.xcassets in Resources */,
 				2E1B901C1E77C933007467F6 /* CustomTableViewCell.xib in Resources */,
-				2E1B902A1E77E4D4007467F6 /* DetailBooksViewController.xib in Resources */,
 				2E1B900C1E77C7D7007467F6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

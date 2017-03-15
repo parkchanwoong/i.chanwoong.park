@@ -9,9 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface DetailBooksViewController : UIViewController
+
+@property (nonatomic) NSInteger cellIndexPath;
+
 @property (weak, nonatomic) IBOutlet UIImageView *detailImage;
 @property (weak, nonatomic) IBOutlet UILabel *detailName;
 @property (weak, nonatomic) IBOutlet UILabel *detailAuthor;
-@property (weak, nonatomic) IBOutlet UITextView *detailTextView;
+
+@property (weak, nonatomic) IBOutlet UILabel *story;
 
 @end

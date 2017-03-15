@@ -12,6 +12,7 @@
 @property NSMutableArray *booksName;
 @property NSMutableArray *author;
 @property NSMutableArray *booksImages;
+@property NSMutableArray *story;
 +(instancetype)shared;
 - (void)setBooks;
 - (NSInteger)booksCounts;
