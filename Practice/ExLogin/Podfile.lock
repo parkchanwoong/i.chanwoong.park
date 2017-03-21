@@ -1,0 +1,35 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - FLAnimatedImage (1.0.12)
+  - UIImageView-PlayGIF (1.0.5)
+  - YLGIFImage (0.11)
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - FLAnimatedImage (~> 1.0)
+  - UIImageView-PlayGIF (~> 1.0.1)
+  - YLGIFImage
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  UIImageView-PlayGIF: 445c8b31b3a43271dd3d565d9c0c612fa59ae830
+  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
+
+PODFILE CHECKSUM: 92f36be0017cd341b7d222d74b16317fdcab7c6e
+
+COCOAPODS: 1.1.1

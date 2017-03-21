@@ -11,6 +11,13 @@
 #import "SignUpViewController.h"
 #import "Network.h"
 #import "MainPageViewController.h"
+
+#import <AFNetworking/AFNetworking.h>
+#import <FLAnimatedImage/FLAnimatedImage.h>
+#import <UIImageView-PlayGIF/YFGIFImageView.h>
+#import <YLGIFImage/YLGIFImage.h>
+#import "YLImageView.h"
+
 @interface ViewController ()
 <UITableViewDelegate>
 @property (weak, nonatomic) IBOutlet UIButton *signUp;
@@ -28,6 +35,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+     
+     
+    YLImageView* imageView = [[YLImageView alloc] initWithFrame:CGRectMake(0, 100, 320, 240)];
+    [self.view addSubview:imageView];
+    imageView.image = [YLGIFImage imageNamed:@"movingCat.gif"];
+    
+    YLImageView* imageView2 = [[YLImageView alloc] initWithFrame:CGRectMake(0, 400, 320, 240)];
+    [self.view addSubview:imageView2];
+    imageView2.image = [YLGIFImage imageNamed:@"joy.gif"];
+    
+     
+
+   
 
 }
 
@@ -71,7 +94,9 @@
     [self presentViewController:mpv animated:YES completion:nil];
     
     
-    /* 
+    /*-----------------------------세션의 기본----------------------------------------
+     
+     
         NSURLSession *session = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
         
         NSURL *url = [NSURL URLWithString:[BASE_API stringByAppendingString:SIGN_IN]];
@@ -121,22 +146,22 @@
         }];
         [task resume];
 
-
+    
+    
         
+                [DataCenter shared].saveData = [[NSUserDefaults alloc]init];
+                [[DataCenter shared].saveData setObject:[NSString stringWithFormat:@"%@", self.tfId.text] forKey:@"id"];
+                [[DataCenter shared].saveData setObject:[NSString stringWithFormat:@"%@", self.tfPw.text] forKey:@"pw"];
         
-        //        [DataCenter shared].saveData = [[NSUserDefaults alloc]init];
-        //        [[DataCenter shared].saveData setObject:[NSString stringWithFormat:@"%@", self.tfId.text] forKey:@"id"];
-        //        [[DataCenter shared].saveData setObject:[NSString stringWithFormat:@"%@", self.tfPw.text] forKey:@"pw"];
+                NSLog(@"%@", [[DataCenter shared].saveData objectForKey:@"id"]);
+                NSLog(@"%@", [[DataCenter shared].saveData objectForKey:@"pw"]);
+    }
+    else
+    {
+        NSLog(@"뭔가 문제가 있어");
         
-        //        NSLog(@"%@", [[DataCenter shared].saveData objectForKey:@"id"]);
-        //        NSLog(@"%@", [[DataCenter shared].saveData objectForKey:@"pw"]);
-//    }
-//    else
-//    {
-//        NSLog(@"뭔가 문제가 있어");
-//        
-//    }
-*/
+    }
+ --------------------------------------------------------------------------------*/
 }
 
 

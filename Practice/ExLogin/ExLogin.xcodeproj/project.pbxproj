@@ -17,10 +17,14 @@
 		2E27843E1E7958CF00D2F53F /* DataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E27843D1E7958CF00D2F53F /* DataCenter.m */; };
 		2E4D43521E7B846100176A86 /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E4D43511E7B846100176A86 /* MainPageViewController.m */; };
 		2E4D43561E7B84AE00176A86 /* MainPage.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E4D43551E7B84AE00176A86 /* MainPage.storyboard */; };
+		2E8B47FD1E8106E20056A5EB /* joy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2E8B47FC1E8106E20056A5EB /* joy.gif */; };
+		2EA90C711E80FD2500124A43 /* movingCat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 2EA90C701E80FD2500124A43 /* movingCat.gif */; };
 		2EFCE1BB1E7A5AE200A8FF6D /* Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFCE1BA1E7A5AE200A8FF6D /* Network.m */; };
+		EBD7533A3CC8B2E18501FE8E /* libPods-ExLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6406608EA9600DE53AADAA9E /* libPods-ExLogin.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2E025FAE1E80FAE5004814C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2E2783FC1E78FDAE00D2F53F /* ExLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2784001E78FDAE00D2F53F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E2784021E78FDAE00D2F53F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,8 +42,13 @@
 		2E4D43501E7B846100176A86 /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
 		2E4D43511E7B846100176A86 /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
 		2E4D43551E7B84AE00176A86 /* MainPage.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainPage.storyboard; sourceTree = "<group>"; };
+		2E8B47FC1E8106E20056A5EB /* joy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = joy.gif; sourceTree = "<group>"; };
+		2EA90C701E80FD2500124A43 /* movingCat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = movingCat.gif; sourceTree = "<group>"; };
 		2EFCE1B91E7A5AE200A8FF6D /* Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Network.h; sourceTree = "<group>"; };
 		2EFCE1BA1E7A5AE200A8FF6D /* Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Network.m; sourceTree = "<group>"; };
+		3374D5CD11F01E55C8F14F37 /* Pods-ExLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExLogin/Pods-ExLogin.release.xcconfig"; sourceTree = "<group>"; };
+		6406608EA9600DE53AADAA9E /* libPods-ExLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ExLogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19FFD4CC7B115B41F75E046 /* Pods-ExLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExLogin/Pods-ExLogin.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBD7533A3CC8B2E18501FE8E /* libPods-ExLogin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,8 +66,12 @@
 		2E2783F31E78FDAE00D2F53F = {
 			isa = PBXGroup;
 			children = (
+				2EA90C701E80FD2500124A43 /* movingCat.gif */,
+				2E8B47FC1E8106E20056A5EB /* joy.gif */,
 				2E2783FE1E78FDAE00D2F53F /* ExLogin */,
 				2E2783FD1E78FDAE00D2F53F /* Products */,
+				DECE3FECA4D4E627CD13C9B9 /* Pods */,
+				EC86ED5B9E713F24782F781F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +124,24 @@
 			name = model;
 			sourceTree = "<group>";
 		};
+		DECE3FECA4D4E627CD13C9B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D19FFD4CC7B115B41F75E046 /* Pods-ExLogin.debug.xcconfig */,
+				3374D5CD11F01E55C8F14F37 /* Pods-ExLogin.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC86ED5B9E713F24782F781F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E025FAE1E80FAE5004814C0 /* CoreGraphics.framework */,
+				6406608EA9600DE53AADAA9E /* libPods-ExLogin.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -117,9 +149,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E2784131E78FDAE00D2F53F /* Build configuration list for PBXNativeTarget "ExLogin" */;
 			buildPhases = (
+				90FB62FA6FE0C7D9E96439E1 /* [CP] Check Pods Manifest.lock */,
 				2E2783F81E78FDAE00D2F53F /* Sources */,
 				2E2783F91E78FDAE00D2F53F /* Frameworks */,
 				2E2783FA1E78FDAE00D2F53F /* Resources */,
+				F3F242D8F896BA9E04D90162 /* [CP] Embed Pods Frameworks */,
+				B412D98D699A0DBFCEF63C37 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,6 +176,7 @@
 				TargetAttributes = {
 					2E2783FB1E78FDAE00D2F53F = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NN7QXHC8A3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -170,12 +206,62 @@
 			files = (
 				2E4D43561E7B84AE00176A86 /* MainPage.storyboard in Resources */,
 				2E27840F1E78FDAE00D2F53F /* LaunchScreen.storyboard in Resources */,
+				2EA90C711E80FD2500124A43 /* movingCat.gif in Resources */,
+				2E8B47FD1E8106E20056A5EB /* joy.gif in Resources */,
 				2E27840C1E78FDAE00D2F53F /* Assets.xcassets in Resources */,
 				2E27840A1E78FDAE00D2F53F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90FB62FA6FE0C7D9E96439E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B412D98D699A0DBFCEF63C37 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExLogin/Pods-ExLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3F242D8F896BA9E04D90162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExLogin/Pods-ExLogin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E2783F81E78FDAE00D2F53F /* Sources */ = {
@@ -304,8 +390,10 @@
 		};
 		2E2784141E78FDAE00D2F53F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D19FFD4CC7B115B41F75E046 /* Pods-ExLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = ExLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chanwoong.ExLogin;
@@ -315,8 +403,10 @@
 		};
 		2E2784151E78FDAE00D2F53F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3374D5CD11F01E55C8F14F37 /* Pods-ExLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = ExLogin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chanwoong.ExLogin;
