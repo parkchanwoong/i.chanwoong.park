@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  CollectionViewPrac0323
+//
+//  Created by 박찬웅 on 2017. 3. 24..
+//  Copyright © 2017년 Parkchanwoong. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIKit/UIKit.h>
+#import "ViewController.h"
+#import "SecondViewController.h"
+#import "Base.h"
+
+#endif /* PrefixHeader_pch */

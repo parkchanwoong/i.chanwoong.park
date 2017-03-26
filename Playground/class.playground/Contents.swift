@@ -63,3 +63,36 @@ for i in 0...9 {
 let train = Train()
 
 train.makeNoise()
+
+
+class Car:Vehicle
+{
+    var gear = 1
+   override var description:String //computed property
+    {
+        return super.description + "in gear \(gear)"
+    }
+    
+}
+
+
+let car = Car()
+car.currentSpeed = 25.0
+car.gear = 3
+print("Car: \(car.description)")
+
+
+class AutomaticCar:Car
+{
+  override var currentSpeed: Double
+    {
+    didSet
+    {
+        gear = Int(currentSpeed / 10) + 1
+    }
+    }
+}
+
+let automatic = AutomaticCar()
+automatic.currentSpeed = 30.0
+print("AutomatiCar : \(automatic.description)")
