@@ -37,21 +37,38 @@ class BookManager
         return bookList.count
     }
     
-    func findBook(_ name:String) -> String
+    func findBook(_ name:String) -> String?  //옵셔널 value nil이나 String값이 들어와야함
+    {
+        var strTemp = ""
+        for bookTemp in bookList
+        {
+            if bookTemp.name == name
+            {
+                strTemp += "Name : \(bookTemp.name)\n"
+                strTemp += "Genre : \(bookTemp.genre)\n"
+                strTemp += "Author : \(bookTemp.author)\n"
+                
+                return strTemp
+            }
+        }
+        return nil
+    }
+    
+    func removeBook(_ name:String)
     {
         for bookTemp in bookList {
             if bookTemp.name == name
             {
-//                strTemp += "Name : \(bookTemp.name)\n"
-//                strTemp += "Genre : \(bookTemp.genre)\n"
-//                strTemp += "Author : \(bookTemp.author)\n"
-//                strTemp += "----------------------------\n"
+                let index = (bookList as NSArray).index(of: bookTemp)
+                bookList.remove(at: index)
             }
         }
     }
-    
-    func removeBook()
-    {
-        
-    }
 }
+
+
+
+
+
+
+
