@@ -21,17 +21,5 @@
     return datacenter;
 }
 
-//- (instancetype)init
-//{
-//    self = [super init];
-//    if (self) {
-//        [self saveData];
-//    }
-//    return self;
-//}
-//
-//- (void)saveData
-//{
-//    [[NSUserDefaults standardUserDefaults] setObject:<#(nullable id)#> forKey:<#(nonnull NSString *)#>]
-//}
+
 @end

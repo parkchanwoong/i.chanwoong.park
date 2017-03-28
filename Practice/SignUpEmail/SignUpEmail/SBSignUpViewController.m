@@ -8,6 +8,7 @@
 
 #import "SBSignUpViewController.h"
 #import <AFNetworking/AFNetworking.h>
+#import "SBLoginViewController.h"
 
 @interface SBSignUpViewController()
 @property (strong, nonatomic) IBOutlet UITextField *IDTextField;
@@ -67,20 +68,28 @@
         [alert addAction:noAction];
         [self presentViewController:alert animated:YES completion:nil];
         
-     return NO;
-    }
-    
-    NSLog(@"성공");
-    if (password == password2) {
-        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"회원가입이 완료되었습니다." message:nil preferredStyle:UIAlertControllerStyleAlert];
-        UIAlertAction *noAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleCancel handler:nil];
+        return NO;
         
-        [alert addAction:noAction];
-        [self presentViewController:alert animated:YES completion:nil];
-        SBSignUpViewController *view = [SBSignUpViewController new];
-        [self presentViewController:view animated:YES completion:^{
-             [self saveData];
+    }  else if (password == password2) {
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"회원가입이 완료되었습니다." message:nil preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            
+       
+            [self.navigationController popViewControllerAnimated:YES];
+            [self saveData];
         }];
+        
+        
+        [alert addAction:okAction];
+        
+        
+        [self presentViewController:alert animated:YES completion:nil];
+        
+//        SBSignUpViewController *view = [SBSignUpViewController new];
+//        [self presentViewController:view animated:YES completion:^{
+//            [self saveData];
+//        }];
+        
         
     } else {
         
@@ -92,15 +101,12 @@
         
         
     }
-
-    return YES;
     
+    return YES;
 }
 
 
-
-
-- (IBAction)SignUpButton:(UIButton *)sender
+   - (IBAction)SignUpButton:(UIButton *)sender
 {
 
     [self checkEmail:self.IDTextField.text CheckPasswordEqualsPassword1:self.PasswordTextField.text password2:self.RePasswordTextField.text];
@@ -115,6 +121,41 @@
 }
 
 
+
+
+/*  이메일 형식 체크 정규식
+- (BOOL)checkEmail:(NSString *)email
+
+{
+    
+    const char *tmp = [email cStringUsingEncoding:NSUTF8StringEncoding];
+    
+    if (email.length != strlen(tmp))
+        
+    {
+        
+        return NO;
+        
+    }
+    
+    
+    
+    NSString *check = @"([0-9a-zA-Z_-]+)@([0-9a-zA-Z_-]+)(\\.[0-9a-zA-Z_-]+){1,2}";
+    
+    NSRange match = [email rangeOfString:check options:NSRegularExpressionSearch];
+    
+    if (NSNotFound == match.location)
+        
+    {
+        
+        return NO;
+        
+    }
+    
+    return YES;
+    
+}
+*/
 
 
 

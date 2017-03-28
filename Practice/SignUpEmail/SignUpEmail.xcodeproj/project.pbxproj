@@ -187,6 +187,7 @@
 				TargetAttributes = {
 					2E82B4161E88FE5B00B84F73 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = NN7QXHC8A3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -390,6 +391,7 @@
 			baseConfigurationReference = C9DF7FC0CE07F2CDBC0F08A7 /* Pods-SignUpEmail.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = SignUpEmail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chanwoong.SignUpEmail;
@@ -402,6 +404,7 @@
 			baseConfigurationReference = 6057FB7A18B36D43C6D1CAEB /* Pods-SignUpEmail.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
 				INFOPLIST_FILE = SignUpEmail/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = chanwoong.SignUpEmail;

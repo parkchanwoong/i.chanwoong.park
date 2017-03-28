@@ -7,6 +7,7 @@
 //
 
 #import "SBLoginViewController.h"
+#import <LocalAuthentication/LocalAuthentication.h>
 
 @interface SBLoginViewController ()
 @property (strong, nonatomic) IBOutlet UITextField *IDTextField;
@@ -15,10 +16,57 @@
 @end
 
 @implementation SBLoginViewController
+- (IBAction)TouchIDButton:(UIButton *)sender
+{
+    LAContext *myContext = [[LAContext alloc] init];
+    NSError *authError = nil;
+    NSString *myLocalizedReasonString = @"터치아이디";
+    
+    if ([myContext canEvaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics error:&authError]) {
+        [myContext evaluatePolicy:LAPolicyDeviceOwnerAuthenticationWithBiometrics
+                  localizedReason:myLocalizedReasonString
+                            reply:^(BOOL success, NSError *error) {
+                                if (success) {
+                                    dispatch_async(dispatch_get_main_queue(), ^{
+                                        //[self performSegueWithIdentifier:@"Success" sender:nil];
+                                    });
+                                } else {
+                                    dispatch_async(dispatch_get_main_queue(), ^{
+                                        
+                                        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Error" message:error.description preferredStyle:UIAlertControllerStyleAlert];
+                                        
+                                        UIAlertAction *ok = [UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleCancel handler:nil];
+                                        
+                                        [alert addAction:ok];
+                                        [self presentViewController:alert animated:YES completion:nil];
+                                        
+                                        // Rather than show a UIAlert here, use the error to determine if you should push to a keypad for PIN entry.
+                                    });
+                                }
+                            }];
+    } else {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Error" message:authError.description preferredStyle:UIAlertControllerStyleAlert];
+            
+            UIAlertAction *ok = [UIAlertAction actionWithTitle:@"확인2" style:UIAlertActionStyleCancel handler:nil];
+            
+            [alert addAction:ok];
+            [self presentViewController:alert animated:YES completion:nil];
+      
+            // Rather than show a UIAlert here, use the error to determine if you should push to a keypad for PIN entry.
+        });
+    }
+}
+
+
+
+
+
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,6 +81,14 @@
     
     if ([self.IDTextField.text isEqualToString:tempID] && [self.PasswordTextField.text isEqualToString:tempPW] ) {
         NSLog(@"로그인 성공");
+        
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"성공" message:@"그래" preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction *ok = [UIAlertAction actionWithTitle:@"메인으로" style:UIAlertActionStyleCancel handler:nil];
+        
+        [alert addAction:ok];
+        [self presentViewController:alert animated:YES completion:nil];
+             
     } else {
         NSLog(@"로그인 실패");
     }
