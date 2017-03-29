@@ -10,6 +10,77 @@
     </dependencies>
     <scenes>
         <!--로그인-->
+        <scene sceneID="XU1-Yp-jyK">
+            <objects>
+                <viewController storyboardIdentifier="SBLoginViewController" id="bJ2-xN-Evw" customClass="SBLoginViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9sd-C8-xHI"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dwm-ov-tUJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Is1-yl-xJe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gmZ-nf-YGc">
+                                <rect key="frame" x="0.0" y="-0.5" width="375" height="667"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="아이디 입력부분" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZJw-vW-1oA">
+                                        <rect key="frame" x="64" y="318.5" width="247" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비밀번호 입력부분" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="noO-vl-6H7">
+                                        <rect key="frame" x="64" y="318.5" width="247" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CPv-t5-nxG">
+                                        <rect key="frame" x="133" y="318.5" width="109" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="로그인"/>
+                                        <connections>
+                                            <action selector="loginButton:" destination="bJ2-xN-Evw" eventType="touchUpInside" id="kKz-uX-VKh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JF4-Hl-zKj">
+                                        <rect key="frame" x="164" y="318.5" width="47" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="지문"/>
+                                        <connections>
+                                            <action selector="TouchIDButton:" destination="bJ2-xN-Evw" eventType="touchUpInside" id="PYM-z3-890"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QIZ-fK-9br">
+                                        <rect key="frame" x="125" y="318.5" width="124" height="30"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="회원가입"/>
+                                    </button>
+                                </subviews>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="gmZ-nf-YGc" firstAttribute="height" secondItem="Is1-yl-xJe" secondAttribute="height" id="4oM-NB-t7H"/>
+                            <constraint firstItem="gmZ-nf-YGc" firstAttribute="centerX" secondItem="Is1-yl-xJe" secondAttribute="centerX" id="4pY-LB-EH1"/>
+                            <constraint firstItem="gmZ-nf-YGc" firstAttribute="width" secondItem="Is1-yl-xJe" secondAttribute="width" id="OCd-N1-tua"/>
+                            <constraint firstItem="gmZ-nf-YGc" firstAttribute="centerY" secondItem="Is1-yl-xJe" secondAttribute="centerY" id="vnQ-EC-exb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="로그인" id="gkk-9r-sjC"/>
+                    <connections>
+                        <outlet property="IDTextField" destination="ZJw-vW-1oA" id="CQe-dv-c9X"/>
+                        <outlet property="PasswordTextField" destination="noO-vl-6H7" id="mYg-Bk-DaD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qtI-rs-Tz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1602" y="-440"/>
+        </scene>
+        <!--로그인-->
         <scene sceneID="VXf-sJ-bI0">
             <objects>
                 <viewController storyboardIdentifier="SBLoginViewController" id="cNf-1M-Jvy" customClass="SBLoginViewController" sceneMemberID="viewController">
@@ -130,7 +201,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Fnh-GJ-Iso">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PkJ-gz-bMz" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="PkJ-gz-bMz" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="G0z-7r-7xG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
