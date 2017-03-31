@@ -85,10 +85,7 @@
         
         [self presentViewController:alert animated:YES completion:nil];
         
-//        SBSignUpViewController *view = [SBSignUpViewController new];
-//        [self presentViewController:view animated:YES completion:^{
-//            [self saveData];
-//        }];
+
         
         
     } else {
