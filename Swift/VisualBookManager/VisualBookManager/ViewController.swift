@@ -9,6 +9,9 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let myBook = BookManager()
+    @IBOutlet var outputTextView:UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,10 +36,6 @@ class ViewController: UIViewController {
         
         //book3.bookPrint()
         
-        
-        
-        let myBook = BookManager()
-        
         myBook.addBook(book1)
         myBook.addBook(book2)
         myBook.addBook(book3)
@@ -46,7 +45,8 @@ class ViewController: UIViewController {
     
     @IBAction func showAllBookAction(_ sender:AnyObject)
     {
-        print("showAllBookAction")
+//        print(myBook.showAllBook())
+        outputTextView.text = myBook.showAllBook()
     }
 
     override func didReceiveMemoryWarning() {
