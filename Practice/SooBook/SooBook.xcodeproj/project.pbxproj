@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E232FE51E8B78E600A6CCB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E232FE41E8B78E600A6CCB2 /* main.m */; };
+		2E232FE81E8B78E600A6CCB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E232FE71E8B78E600A6CCB2 /* AppDelegate.m */; };
+		2E232FEB1E8B78E600A6CCB2 /* SBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E232FEA1E8B78E600A6CCB2 /* SBLoginViewController.m */; };
+		2E232FEE1E8B78E600A6CCB2 /* SBLoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E232FEC1E8B78E600A6CCB2 /* SBLoginViewController.storyboard */; };
+		2E232FF01E8B78E600A6CCB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E232FEF1E8B78E600A6CCB2 /* Assets.xcassets */; };
+		2E232FF31E8B78E600A6CCB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E232FF11E8B78E600A6CCB2 /* LaunchScreen.storyboard */; };
+		2E2330081E8B932500A6CCB2 /* SBCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E2330061E8B932500A6CCB2 /* SBCustomTableViewCell.m */; };
+		2E2330091E8B932500A6CCB2 /* SBCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2330071E8B932500A6CCB2 /* SBCustomTableViewCell.xib */; };
+		2E23300C1E8BA7C900A6CCB2 /* SBSignUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E23300B1E8BA7C900A6CCB2 /* SBSignUpViewController.m */; };
+		2E23300E1E8BA7DD00A6CCB2 /* SBSignUpViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E23300D1E8BA7DD00A6CCB2 /* SBSignUpViewController.storyboard */; };
+		2EBF3A491E8D00B20099CFFC /* UIColor+SBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBF3A481E8D00B20099CFFC /* UIColor+SBAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E232FE01E8B78E600A6CCB2 /* SooBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SooBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E232FE41E8B78E600A6CCB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E232FE61E8B78E600A6CCB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2E232FE71E8B78E600A6CCB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E232FE91E8B78E600A6CCB2 /* SBLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBLoginViewController.h; sourceTree = "<group>"; };
+		2E232FEA1E8B78E600A6CCB2 /* SBLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBLoginViewController.m; sourceTree = "<group>"; };
+		2E232FED1E8B78E600A6CCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SBLoginViewController.storyboard; sourceTree = "<group>"; };
+		2E232FEF1E8B78E600A6CCB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2E232FF21E8B78E600A6CCB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2E232FF41E8B78E600A6CCB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2330051E8B932500A6CCB2 /* SBCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBCustomTableViewCell.h; sourceTree = "<group>"; };
+		2E2330061E8B932500A6CCB2 /* SBCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBCustomTableViewCell.m; sourceTree = "<group>"; };
+		2E2330071E8B932500A6CCB2 /* SBCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBCustomTableViewCell.xib; sourceTree = "<group>"; };
+		2E23300A1E8BA7C900A6CCB2 /* SBSignUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBSignUpViewController.h; sourceTree = "<group>"; };
+		2E23300B1E8BA7C900A6CCB2 /* SBSignUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBSignUpViewController.m; sourceTree = "<group>"; };
+		2E23300D1E8BA7DD00A6CCB2 /* SBSignUpViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SBSignUpViewController.storyboard; sourceTree = "<group>"; };
+		2EBF3A471E8D00B20099CFFC /* UIColor+SBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SBAdditions.h"; sourceTree = "<group>"; };
+		2EBF3A481E8D00B20099CFFC /* UIColor+SBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SBAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E232FDD1E8B78E600A6CCB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E232FD71E8B78E600A6CCB2 = {
+			isa = PBXGroup;
+			children = (
+				2E232FE21E8B78E600A6CCB2 /* SooBook */,
+				2E232FE11E8B78E600A6CCB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2E232FE11E8B78E600A6CCB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2E232FE01E8B78E600A6CCB2 /* SooBook.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2E232FE21E8B78E600A6CCB2 /* SooBook */ = {
+			isa = PBXGroup;
+			children = (
+				2E232FE61E8B78E600A6CCB2 /* AppDelegate.h */,
+				2E232FE71E8B78E600A6CCB2 /* AppDelegate.m */,
+				2EBF3A471E8D00B20099CFFC /* UIColor+SBAdditions.h */,
+				2EBF3A481E8D00B20099CFFC /* UIColor+SBAdditions.m */,
+				2E23300F1E8BA7F400A6CCB2 /* LoginView */,
+				2E2330101E8BA80100A6CCB2 /* SignUpView */,
+				2E2330111E8BCF6A00A6CCB2 /* CustomTableViewCell */,
+				2E232FEF1E8B78E600A6CCB2 /* Assets.xcassets */,
+				2E232FF11E8B78E600A6CCB2 /* LaunchScreen.storyboard */,
+				2E232FF41E8B78E600A6CCB2 /* Info.plist */,
+				2E232FE31E8B78E600A6CCB2 /* Supporting Files */,
+			);
+			path = SooBook;
+			sourceTree = "<group>";
+		};
+		2E232FE31E8B78E600A6CCB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2E232FE41E8B78E600A6CCB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2E23300F1E8BA7F400A6CCB2 /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				2E232FE91E8B78E600A6CCB2 /* SBLoginViewController.h */,
+				2E232FEA1E8B78E600A6CCB2 /* SBLoginViewController.m */,
+				2E232FEC1E8B78E600A6CCB2 /* SBLoginViewController.storyboard */,
+			);
+			name = LoginView;
+			sourceTree = "<group>";
+		};
+		2E2330101E8BA80100A6CCB2 /* SignUpView */ = {
+			isa = PBXGroup;
+			children = (
+				2E23300A1E8BA7C900A6CCB2 /* SBSignUpViewController.h */,
+				2E23300B1E8BA7C900A6CCB2 /* SBSignUpViewController.m */,
+				2E23300D1E8BA7DD00A6CCB2 /* SBSignUpViewController.storyboard */,
+			);
+			name = SignUpView;
+			sourceTree = "<group>";
+		};
+		2E2330111E8BCF6A00A6CCB2 /* CustomTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				2E2330051E8B932500A6CCB2 /* SBCustomTableViewCell.h */,
+				2E2330061E8B932500A6CCB2 /* SBCustomTableViewCell.m */,
+				2E2330071E8B932500A6CCB2 /* SBCustomTableViewCell.xib */,
+			);
+			name = CustomTableViewCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E232FDF1E8B78E600A6CCB2 /* SooBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E232FF71E8B78E600A6CCB2 /* Build configuration list for PBXNativeTarget "SooBook" */;
+			buildPhases = (
+				2E232FDC1E8B78E600A6CCB2 /* Sources */,
+				2E232FDD1E8B78E600A6CCB2 /* Frameworks */,
+				2E232FDE1E8B78E600A6CCB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SooBook;
+			productName = SooBook;
+			productReference = 2E232FE01E8B78E600A6CCB2 /* SooBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2E232FD81E8B78E600A6CCB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Parkchanwoong;
+				TargetAttributes = {
+					2E232FDF1E8B78E600A6CCB2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = NN7QXHC8A3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2E232FDB1E8B78E600A6CCB2 /* Build configuration list for PBXProject "SooBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2E232FD71E8B78E600A6CCB2;
+			productRefGroup = 2E232FE11E8B78E600A6CCB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E232FDF1E8B78E600A6CCB2 /* SooBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E232FDE1E8B78E600A6CCB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E232FF31E8B78E600A6CCB2 /* LaunchScreen.storyboard in Resources */,
+				2E23300E1E8BA7DD00A6CCB2 /* SBSignUpViewController.storyboard in Resources */,
+				2E232FF01E8B78E600A6CCB2 /* Assets.xcassets in Resources */,
+				2E2330091E8B932500A6CCB2 /* SBCustomTableViewCell.xib in Resources */,
+				2E232FEE1E8B78E600A6CCB2 /* SBLoginViewController.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E232FDC1E8B78E600A6CCB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E232FEB1E8B78E600A6CCB2 /* SBLoginViewController.m in Sources */,
+				2E23300C1E8BA7C900A6CCB2 /* SBSignUpViewController.m in Sources */,
+				2EBF3A491E8D00B20099CFFC /* UIColor+SBAdditions.m in Sources */,
+				2E232FE81E8B78E600A6CCB2 /* AppDelegate.m in Sources */,
+				2E2330081E8B932500A6CCB2 /* SBCustomTableViewCell.m in Sources */,
+				2E232FE51E8B78E600A6CCB2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2E232FEC1E8B78E600A6CCB2 /* SBLoginViewController.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E232FED1E8B78E600A6CCB2 /* Base */,
+			);
+			name = SBLoginViewController.storyboard;
+			sourceTree = "<group>";
+		};
+		2E232FF11E8B78E600A6CCB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2E232FF21E8B78E600A6CCB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2E232FF51E8B78E600A6CCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2E232FF61E8B78E600A6CCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2E232FF81E8B78E600A6CCB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
+				INFOPLIST_FILE = SooBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chanwoong.SooBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2E232FF91E8B78E600A6CCB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NN7QXHC8A3;
+				INFOPLIST_FILE = SooBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = chanwoong.SooBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2E232FDB1E8B78E600A6CCB2 /* Build configuration list for PBXProject "SooBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E232FF51E8B78E600A6CCB2 /* Debug */,
+				2E232FF61E8B78E600A6CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E232FF71E8B78E600A6CCB2 /* Build configuration list for PBXNativeTarget "SooBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E232FF81E8B78E600A6CCB2 /* Debug */,
+				2E232FF91E8B78E600A6CCB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2E232FD81E8B78E600A6CCB2 /* Project object */;
+}
