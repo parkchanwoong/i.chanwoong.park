@@ -44,4 +44,12 @@
 
 ### Petme
 
+- 개발기간 2017.03.08 ~ 2017.03.09
+
 * [Petme gitHub](https://github.com/BaekJinCho/PetmeApp)
+
+### SooBook
+
+- 개발기간 2017.03.27 ~ 2017.04.21
+
+* [SooBook gitHub](https://github.com/draupnir45/SooBook_iOS)
