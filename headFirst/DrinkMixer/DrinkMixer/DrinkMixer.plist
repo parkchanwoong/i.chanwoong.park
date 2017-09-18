@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>directions</key>
+		<string>Shake vigorously and serve.</string>
+		<key>ingredients</key>
+		<string>white creme de menthe, peach liqueur vodka, hot</string>
+		<key>name</key>
+		<string>After Dinner Mint</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>apple</string>
+		<key>ingredients</key>
+		<string>push apple</string>
+		<key>name</key>
+		<string>Apple Drop</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>lemon drop drop</string>
+		<key>ingredients</key>
+		<string>lemon push drop</string>
+		<key>name</key>
+		<string>Lemon drop</string>
+	</dict>
+	<dict>
+		<key>directions</key>
+		<string>Mojito directions</string>
+		<key>ingredients</key>
+		<string>Mojito ingredients</string>
+		<key>name</key>
+		<string>Mojito</string>
+	</dict>
+</array>
+</plist>
