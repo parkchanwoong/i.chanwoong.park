@@ -1,7 +1,7 @@
 ## iOS 공부과정
 
-### 창고
-업데이트중...
+### !!! 자주볼것 !!!
+
 
 * [ 프로퍼티 , 객체지향 - 01월 16일](https://github.com/parkchanwoong/i.chanwoong.park/blob/master/Class/Class170116.md)
 * [ 객체 , 프로퍼티 , 메서드 - 01월 17일](https://github.com/parkchanwoong/i.chanwoong.park/blob/master/Class/Class170117.md)
